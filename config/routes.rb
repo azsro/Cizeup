@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :microposts
   resources :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -16,8 +17,13 @@ Rails.application.routes.draw do
 
   get 'pages/About' => 'pages#About'
   
+  get 'pages/Books' => 'pages#Books'
+  
   get 'signup' => 'users#new'
   
+  get 'posts' => 'microposts#index'
+  
+  get 'newproject' => 'microposts#new'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

@@ -10,4 +10,7 @@ class PagesController < ApplicationController
 
   def About
   end
+
+  def Books
+  end
 end
