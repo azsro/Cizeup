@@ -1,17 +1,17 @@
 <% provide(:title, "Explore") %>
 <div class="center jumbotron">
     <body style="background-color:lightblue">
-        <h1 style="text-align:center">Explore</h1>  
-        <p style="text-align:center"> 
+        <h1>Explore</h1>  
+        <h2>
         This is where you search for something to read, assuming you didn't immediatly log in. You choose the type of writing,
         (book, short story, etc.), that you want to read, then are directed onwards to ranked writings.The goal is to be as
         easy as possible to find something to read. The voting/ranking system will help, as will colorful book covers,
         formatting, etc.
-        </p>
+        </h2>
         <div id="nav"style="text-align:center"> 
-            <%= link_to "Books", pages_Books_path %>&nbsp;&nbsp;&nbsp;&nbsp;
-            <%= link_to "Short Stories", pages_ShortStories_path %>&nbsp;&nbsp;&nbsp;&nbsp;
-            <%= link_to "Poetry", pages_Poetry_path %>&nbsp;&nbsp;&nbsp;&nbsp;
-        <%= link_to "Other Works", pages_Other_path %>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href=Books class="btn btn-lg btn-primary">Books</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href=ShortStories class="btn btn-lg btn-primary">Short Stories</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href=Poetry class="btn btn-lg btn-primary">Poetry</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href=Other class="btn btn-lg btn-primary">Other Works</a>&nbsp;&nbsp;&nbsp;&nbsp;
         </div>
     </body>
