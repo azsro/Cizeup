@@ -1,17 +1,17 @@
-<%= link_to 'Back', pages_Home_path %>
-<div id="header">
-    <h1 style="text-align:center">Explore</h1>
-</div>
-
-<body style="background-color:lightblue">
-    
-<p style="text-align:center"> This is where you search for something to read, assuming you didn't immediatly log in. You choose the type of writing
-, (book, short story, etc.), that you want to read, then are directed onwards to ranked writings.The goal is to be as easy as possible to find something 
-to read. The voting/ranking system will help, as will colorful book covers, formatting, etc.</p>
-
-<div id="nav"style="text-align:center"> 
-<%= link_to "Books", pages_Books_path %>&nbsp;&nbsp;&nbsp;&nbsp;
-<%= link_to "Short Stories", posts_path %>&nbsp;&nbsp;&nbsp;&nbsp;
-<%= link_to "Poetry", posts_path %>&nbsp;&nbsp;&nbsp;&nbsp;
-<%= link_to "Other", posts_path %>&nbsp;&nbsp;&nbsp;&nbsp;
-</div>
+<% provide(:title, "Explore") %>
+<div class="center jumbotron">
+    <body style="background-color:lightblue">
+        <h1 style="text-align:center">Explore</h1>  
+        <p style="text-align:center"> 
+        This is where you search for something to read, assuming you didn't immediatly log in. You choose the type of writing,
+        (book, short story, etc.), that you want to read, then are directed onwards to ranked writings.The goal is to be as
+        easy as possible to find something to read. The voting/ranking system will help, as will colorful book covers,
+        formatting, etc.
+        </p>
+        <div id="nav"style="text-align:center"> 
+            <%= link_to "Books", pages_Books_path %>&nbsp;&nbsp;&nbsp;&nbsp;
+            <%= link_to "Short Stories", pages_ShortStories_path %>&nbsp;&nbsp;&nbsp;&nbsp;
+            <%= link_to "Poetry", pages_Poetry_path %>&nbsp;&nbsp;&nbsp;&nbsp;
+        <%= link_to "Other Works", pages_Other_path %>&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+    </body>

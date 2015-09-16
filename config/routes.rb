@@ -17,13 +17,22 @@ Rails.application.routes.draw do
 
   get 'pages/About' => 'pages#About'
   
+  get 'pages/Help' => 'pages#Help'
+  
   get 'pages/Books' => 'pages#Books'
+  
+  get 'pages/ShortStories' => 'pages#ShortStories'
+  
+  get 'pages/Poetry' => 'pages#Poetry'
+  
+  get 'pages/Other' => 'pages#Other'
   
   get 'signup' => 'users#new'
   
   get 'posts' => 'microposts#index'
   
   get 'newproject' => 'microposts#new'
+  
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

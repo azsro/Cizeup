@@ -20,5 +20,15 @@ class PagesControllerTest < ActionController::TestCase
     get :About
     assert_response :success
   end
-
+  
+  test "should get Books" do
+    get :Books
+    assert_response :success
+  end
+  
+  test "should get Poetry" do
+    get :Poetry
+    assert_response :success
+  end
+  
 end

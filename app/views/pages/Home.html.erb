@@ -1,17 +1,22 @@
-<%= link_to "Sign Up", signup_path, class: "btn btn-lg btn-primary"%>
-<h1 style="text-align:center">Welcome to Cizeup!</h1>
-<body style="background-color:lightblue"></p>
-<p style="text-align:center">This would be where you would first enter the site. The background would feature colorful bookshelves on each side<br>
-of the center. In the center, would be an open scroll with the welcome, and the links to pages below. The page would<br>
-move slowly, as if you were walking down a hall of bookshelves.</p>
-
-<div style="text-align:center"> 
-
-    <%= link_to 'Explore', pages_Explore_path %></p><br>
-
-    <%= link_to 'My Shelf', pages_Login_path %>
+<% provide(:title, "Home") %>
+<body style="background-color:lightblue">
+    <div class="center jumbotron">
+    <h1>Welcome to Cizeup!</h1>
+    <p>
+    This would be where you would first enter the site. The background would feature colorful bookshelves on each side
+    of the center. In the center, would be an open scroll with the welcome, and the links to pages below. The page would
+    move slowly, as if you were walking down a hall of bookshelves.
+    </p>
     
-</div>
+        <div> 
 
+            <%= link_to 'Explore', pages_Explore_path %></p><br>
+
+    
+        </div>
+        
+        <img alt="Home Page" src="/assets/Homepage.gif" style="width:304px;height:228px;" />
+        
+</body>
 
 

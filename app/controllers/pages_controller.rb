@@ -10,7 +10,20 @@ class PagesController < ApplicationController
 
   def About
   end
+  
+  def Help
+  end
 
   def Books
   end
+  
+  def ShortStories
+  end 
+  
+  def Poetry
+  end 
+  
+  def Other
+  end 
+
 end
