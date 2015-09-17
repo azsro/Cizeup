@@ -3,6 +3,16 @@
 
 /* for comments */
 
+/* Defined Variables (Colors,etc.) */
+
+$green: #008000;
+$light-grey: #777;
+$gunmetal: #2C3539;
+$grey: #555;
+$dark-grey: #222;
+
+/* For all Pages */
+
 body {
   padding-top: 60px;
 }
@@ -17,10 +27,9 @@ textarea {
 
 .center {
   text-align: center;
-}
-
-.center h1 {
+ h1 {
   margin-bottom: 10px;
+ }
 }
 
 /* for the fonts */
@@ -42,7 +51,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #777;
+  color: $light-grey;
 }
 
 p {
@@ -54,14 +63,39 @@ p {
   float: left;
   margin-right: 5px;
   font-size: 2em;
-  color: #fff;
+  color: white;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 15px;
   font-weight: bold;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
 }
 
-#logo:hover {
-  color: #fff;
-  text-decoration: none;
+/* footer */
+
+footer {
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid $gunmetal;
+    color: $light-grey;
+  a {
+      color: $grey;
+  }
+    &:hover {
+    color: $dark-grey;
+    }
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+    margin-left: 15px;
+   }
+  }
 }

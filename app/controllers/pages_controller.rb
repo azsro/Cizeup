@@ -13,6 +13,9 @@ class PagesController < ApplicationController
   
   def Help
   end
+  
+  def Contact
+  end
 
   def Books
   end
