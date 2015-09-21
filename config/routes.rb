@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-
-  get 'users/new'
+  
+  resources :users
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -8,7 +8,8 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
    root 'pages#Home'
   
-  # Define routes for Pages
+  # Pages Routing 
+  
   get 'pages/Home' => 'pages#Home'
 
   get 'pages/Login' => 'pages#Login'
@@ -27,13 +28,21 @@ Rails.application.routes.draw do
   
   get 'pages/Poetry' => 'pages#Poetry'
   
+  get 'pages/Screenplays' => 'pages#Screenplays'
+    
+  get 'pages/Theater' => 'pages#Theater'
+  
   get 'pages/Other' => 'pages#Other'
+  
+  # User Routing
+  
+  get 'users/new'
   
   get 'signup' => 'users#new'
   
-  get 'posts' => 'microposts#index'
+  get 'show' => 'users#show'
   
-  get 'newproject' => 'microposts#new'
+  
   
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

@@ -26,6 +26,12 @@ class PagesController < ApplicationController
   def Poetry
   end 
   
+  def Screenplays
+  end
+  
+  def Theater
+  end
+  
   def Other
   end 
 
