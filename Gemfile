@@ -37,8 +37,9 @@ gem 'puma', '2.11.1'
 
 group :development, :test do
 # Use postgreSQL as the database for Active Record
-  gem 'pg'
- # gem 'sqlite3'
+ # gem 'pg'
+# Use sqlite3 for local testing/development
+  gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   # Access an IRB console on exception pages or by using <%= console %> in views
