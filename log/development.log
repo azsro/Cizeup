@@ -18303,3 +18303,2330 @@ Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.
 
 Started GET "/assets/custom.self-46c0603c22aff4046951b44d9a9c3245cc0fa54141355d7c8027aae66e092b14.css?body=1" for 173.64.67.222 at 2015-09-22 19:23:45 +0000
 Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 19:45:22 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_iepart.html.erb (0.9ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 417ms (Views: 407.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 173.64.67.222 at 2015-09-22 19:45:23 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 173.64.67.222 at 2015-09-22 19:45:23 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 19:45:24 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 19:45:28 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_iepart.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 103ms (Views: 102.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 173.64.67.222 at 2015-09-22 19:45:31 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (2.9ms)
+  Rendered users/new.html.erb within layouts/application (25.6ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 139ms (Views: 128.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 19:45:34 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 104ms (Views: 102.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 19:46:12 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 125ms (Views: 124.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 19:46:12 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 19:46:13 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 114ms (Views: 113.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 173.64.67.222 at 2015-09-22 19:46:14 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 112ms (Views: 111.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 19:46:28 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 90ms (Views: 88.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 19:46:28 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 19:46:30 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 94ms (Views: 93.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 173.64.67.222 at 2015-09-22 19:46:31 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 82ms (Views: 80.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 19:47:34 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 85ms (Views: 83.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 173.64.67.222 at 2015-09-22 19:47:35 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 100ms (Views: 98.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 19:47:39 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 87ms (Views: 86.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 173.64.67.222 at 2015-09-22 19:47:40 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 81ms (Views: 79.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 19:48:14 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 104ms (Views: 102.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 19:48:15 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 19:48:18 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 89ms (Views: 88.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 173.64.67.222 at 2015-09-22 19:48:19 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 95ms (Views: 93.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 19:48:59 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 130ms (Views: 129.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 173.64.67.222 at 2015-09-22 19:49:00 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered users/new.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 97ms (Views: 96.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 19:49:03 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 140ms (Views: 138.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 173.64.67.222 at 2015-09-22 19:49:07 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 140ms (Views: 139.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Home" for 173.64.67.222 at 2015-09-22 19:50:38 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 80ms (Views: 79.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 19:50:40 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 103ms (Views: 102.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 19:51:27 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 116ms (Views: 115.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 19:51:27 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 19:51:28 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 88ms (Views: 87.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 19:52:20 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 109ms (Views: 108.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Home" for 173.64.67.222 at 2015-09-22 19:53:22 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 88ms (Views: 87.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 19:53:23 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 133ms (Views: 132.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 19:53:36 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 124ms (Views: 123.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 173.64.67.222 at 2015-09-22 19:53:42 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered users/new.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 106ms (Views: 104.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Home" for 173.64.67.222 at 2015-09-22 19:53:45 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 109ms (Views: 108.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 19:53:46 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 108ms (Views: 107.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 173.64.67.222 at 2015-09-22 19:54:00 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+AbstractController::ActionNotFound (The action 'create' could not be found for SessionsController):
+  actionpack (4.2.1) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.1) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:819:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 19:54:04 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 124ms (Views: 122.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 19:54:05 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 19:55:30 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 111ms (Views: 109.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 19:55:31 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 19:55:32 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 92ms (Views: 90.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 173.64.67.222 at 2015-09-22 19:55:35 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered users/new.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 103ms (Views: 94.6ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/users" for 173.64.67.222 at 2015-09-22 19:55:39 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0qzFYI0h9Xlposnus3hNVxjdQPOPH66GSG8e6qFhuvERHoDu/XRyZLks2x2vXwoc5QMWgIklUM96WrglAUKQkQ==", "user"=>{"name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered shared/_error_messages.html.erb (4.7ms)
+  Rendered users/new.html.erb within layouts/application (9.2ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 141ms (Views: 109.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 19:55:43 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 103ms (Views: 102.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 173.64.67.222 at 2015-09-22 19:55:44 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+AbstractController::ActionNotFound (The action 'create' could not be found for SessionsController):
+  actionpack (4.2.1) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.1) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:819:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 19:55:46 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 108ms (Views: 107.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 19:55:47 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Home" for 173.64.67.222 at 2015-09-22 19:58:16 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 113ms (Views: 111.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 19:58:19 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 91ms (Views: 90.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 19:58:20 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 19:58:20 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 84ms (Views: 83.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 173.64.67.222 at 2015-09-22 19:58:22 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7XzK814msTitfbjtL4urnjnJbabBLQAPwsmOW3pFbVsuzo99LnM2JX3zqh4zrOzVxBc71ccX/kbw/CiU2mZHOw==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Sign In"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 86ms (Views: 76.5ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/login" for 173.64.67.222 at 2015-09-22 19:58:39 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UOEGz6QF6nZysMei+MXHfj4ORJI/M+k9dVHmOwx/9WSTU0NB1FBta6I+1VHk4oA1w9AS4TkJF3RHZED0rFzfBA==", "session"=>{"email"=>"highflight109@msn.com", "password"=>"[FILTERED]"}, "commit"=>"Sign In"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "highflight109@msn.com"]]
+Completed 500 Internal Server Error in 70ms (ActiveRecord: 0.4ms)
+
+ActionView::MissingTemplate (Missing template sessions/create, application/create with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ubuntu/workspace/app/views"
+):
+  actionview (4.2.1) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.1) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.1) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.1) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.1) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.1) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.1) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.1) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.1) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:819:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (25.9ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 19:58:48 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 186ms (Views: 183.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 19:58:48 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Explore" for 173.64.67.222 at 2015-09-22 19:58:51 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Explore as HTML
+  Rendered pages/Explore.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 116ms (Views: 115.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 19:58:53 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 110ms (Views: 108.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 20:01:28 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 93ms (Views: 92.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:01:29 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 20:01:30 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 101ms (Views: 99.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 173.64.67.222 at 2015-09-22 20:01:32 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9cZcHOOCSQwVZsO6Q1lFXuYMO1FwOwt3/X1k2JuCUAQ2dBmSk9fOEcXo0UlffgIVG9JtInYB9T7PSMIXO6F6ZA==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Sign In"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 98ms (Views: 92.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/signup" for 173.64.67.222 at 2015-09-22 20:01:34 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.3ms)
+
+ActionView::MissingTemplate (Missing template users/new, application/new with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ubuntu/workspace/app/views"
+):
+  actionview (4.2.1) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.1) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.1) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.1) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.1) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.1) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.1) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.1) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.1) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:819:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (30.5ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 20:01:36 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 102ms (Views: 101.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:01:37 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 20:01:38 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 75ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 173.64.67.222 at 2015-09-22 20:01:41 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JEewgvzcoM5dYk0K2p9RCKMbJz9hUZPtB69+WaFaCLDn9fUMjIkn043sX/nGuBZDXsVxTGdrbaQ1mtiWAXki0A==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Sign In"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 91ms (Views: 89.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 20:01:45 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 110ms (Views: 109.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 173.64.67.222 at 2015-09-22 20:01:50 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1Me2hiNT3FtQJqovzoj4D5URMWAvdjqDD/LNtc5QItgXdfMIUwZbRoCouNzSr79EaM9nEylMxMo9x2t6bnMIuA==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Sign In"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 106ms (Views: 104.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 20:02:13 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 105ms (Views: 104.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 173.64.67.222 at 2015-09-22 20:02:15 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xCTWMijZLLzKueZoQiY2dQNkTGxtIVIoH9HSPfeSKoQHlpO8WIyroRo39JteAXE+/roaH2sbrGEt5HTyV7EA5A==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Sign In"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", ""]]
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.6ms)
+
+ActionView::MissingTemplate (Missing template sessions/login_path, application/login_path with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ubuntu/workspace/app/views"
+):
+  app/controllers/sessions_controller.rb:10:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (32.7ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 20:02:22 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 86ms (Views: 84.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:02:23 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 20:02:24 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 91ms (Views: 89.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 173.64.67.222 at 2015-09-22 20:02:26 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bo7n0rBrtsGCgl8cxYHSMflwamS1iCCSxajjujWuvZ+tPKJcwD4x3FIMTe/ZppV6BK48F7Oy3tv3nUV1lY2X/w==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Sign In"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", ""]]
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.7ms)
+
+ActionView::MissingTemplate (Missing template sessions/login, application/login with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ubuntu/workspace/app/views"
+):
+  app/controllers/sessions_controller.rb:10:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (42.9ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 20:02:36 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 104ms (Views: 103.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:02:37 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 20:02:38 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 99ms (Views: 97.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 173.64.67.222 at 2015-09-22 20:02:40 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I+esukpocq5WVASM9OSBJNModhc6lzW7WvkJihIVjALgVek0Oj31s4baFn/ow8ZvLvYgZDyty/JozK9FsjamYg==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Sign In"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 117ms (Views: 109.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 20:02:55 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 96ms (Views: 95.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:02:55 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 20:02:56 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_iepart.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 92ms (Views: 91.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 173.64.67.222 at 2015-09-22 20:02:58 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pHvq27HHq+m5eDutbc75itB8Sk9uxNqnlwGVieKNNQ9nya9VwZIs9Gn2KV5x6b7BLaIcPGj+JO6lNDNGQq4fbw==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Sign In"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 94ms (Views: 92.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 20:03:23 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_iepart.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 261ms (Views: 246.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:03:23 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 20:03:25 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (22.4ms)
+  Rendered layouts/_iepart.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (1.4ms)
+Completed 200 OK in 170ms (Views: 169.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 173.64.67.222 at 2015-09-22 20:03:29 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SY6Nb/oGWkqtQlaDzHpEZot32aaEwx8Ih90VO5xPRs+KPMjhilPdV33MRHDQXQMtdqmP1YL54UG16LP0PGxsrw==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Sign In"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 121ms (Views: 94.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 20:06:51 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 82ms (Views: 81.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:06:51 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 20:06:52 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 92ms (Views: 91.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 173.64.67.222 at 2015-09-22 20:06:55 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IWmU+zcAjvLp2YgiIBFKewOgNZ9C2x8H8oveZO/VWvri29F1R1UJ7zlXmtE8Ng0w/n5j7ETh4U7AvnirT/Zwmg==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Sign In"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", ""]]
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.5ms)
+
+ActionView::MissingTemplate (Missing template sessions/Login, application/Login with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ubuntu/workspace/app/views"
+):
+  app/controllers/sessions_controller.rb:10:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (33.2ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 20:07:21 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 86ms (Views: 84.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:07:21 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 20:07:22 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 86ms (Views: 85.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 173.64.67.222 at 2015-09-22 20:07:24 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ddYHStLVRd6T69rVRfh1m09ndDsVuor9MTMjNHKaofC2ZELEooDCw0NlyCZZ3zLQsrkiSBOAdLQDBoX70rmLkA==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Sign In"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", ""]]
+  Rendered pages/Login.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 108ms (Views: 100.8ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/login" for 173.64.67.222 at 2015-09-22 20:07:31 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oipBR9pqLDiRZOQOK4H6PuX+X5gIvkntBBLiwTb2X3RhmATJqj+rJUHq9v03pr11GCAJ6w6Et6Q2J0QOltV1FA==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Sign In"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", ""]]
+  Rendered pages/Login.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 114ms (Views: 112.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 20:07:34 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 128ms (Views: 126.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 173.64.67.222 at 2015-09-22 20:07:36 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SqSDVdy/MroOEBAh3efJZRUgpnnLUsTu7+LlmbFxQQyJFsbbrOq1p96eAtLBwI4u6P7wCs1oOqfd10NWEVJrbA==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Sign In"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", ""]]
+  Rendered pages/Login.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 108ms (Views: 106.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/Home" for 173.64.67.222 at 2015-09-22 20:07:38 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 101ms (Views: 100.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:07:38 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 20:11:21 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 109ms (Views: 108.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 173.64.67.222 at 2015-09-22 20:11:28 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"B3bfkPtjaSblBM6bIvJiGwyb/SfmxbV4k5ToLfEhD/3ExJoeizbuOzWK3Gg+1SVQ8UWrVOD/SzGhoU7iUQIlnQ==", "session"=>{"email"=>"highflight109@msn.com", "password"=>"[FILTERED]"}, "commit"=>"Sign In"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "highflight109@msn.com"]]
+  Rendered pages/Login.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 185ms (Views: 104.6ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/login" for 173.64.67.222 at 2015-09-22 20:11:36 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hUumjqN2aA6VGa1WChmvThdr24eJe3wuw0tr3Zt0/hhG+eMA0yPvE0WXv6UWPugF6rWN9I9Bgmfxfs0SO1fUeA==", "session"=>{"email"=>"highflight109@msn.com", "password"=>"[FILTERED]"}, "commit"=>"Sign In"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "highflight109@msn.com"]]
+Redirected to https://cizeup-azsro.c9.io/users/1
+Completed 302 Found in 73ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/users/1" for 173.64.67.222 at 2015-09-22 20:11:36 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 95ms (Views: 92.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages/Home" for 173.64.67.222 at 2015-09-22 20:11:42 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 101ms (Views: 99.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:11:42 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 20:11:43 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 139ms (Views: 138.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Home" for 173.64.67.222 at 2015-09-22 20:11:52 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 96ms (Views: 95.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 20:11:53 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 98ms (Views: 97.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Home" for 173.64.67.222 at 2015-09-22 20:11:55 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 107ms (Views: 105.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 20:17:30 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (10.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 125ms (Views: 122.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:17:30 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Help" for 173.64.67.222 at 2015-09-22 20:17:39 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Help as HTML
+  Rendered pages/Help.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 93ms (Views: 91.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 20:17:41 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 98ms (Views: 96.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/Home" for 173.64.67.222 at 2015-09-22 20:17:42 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 123ms (Views: 121.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/Login" for 173.64.67.222 at 2015-09-22 20:17:43 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 118ms (Views: 117.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 20:18:30 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 120ms (Views: 119.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:18:31 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Home" for 173.64.67.222 at 2015-09-22 20:18:37 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (2.7ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 125ms (Views: 124.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/Help" for 173.64.67.222 at 2015-09-22 20:18:39 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Help as HTML
+  Rendered pages/Help.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 100ms (Views: 99.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 20:21:10 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 327ms (Views: 324.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for 173.64.67.222 at 2015-09-22 20:21:11 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 173.64.67.222 at 2015-09-22 20:21:11 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:21:11 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 20:21:26 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_iepart.html.erb (0.3ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (30.7ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 446ms (Views: 430.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:21:27 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started DELETE "/logout" for 173.64.67.222 at 2015-09-22 20:21:30 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"yHY1vYX9e2ROlcspE0N94MIQ6vLd4EUGuHzs+jJnz7ULxHAz9aj8eZ4b2doPZDqrP868gdvau0+KSUo1kkTl1Q=="}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template sessions/destroy, application/destroy with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ubuntu/workspace/app/views"
+):
+  actionview (4.2.1) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.1) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.1) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.1) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.1) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.1) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.1) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.1) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.1) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:819:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (31.5ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 20:22:30 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (2.8ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 149ms (Views: 147.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:22:30 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/1" for 173.64.67.222 at 2015-09-22 20:22:33 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_iepart.html.erb (0.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (2.7ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 135ms (Views: 132.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 20:23:16 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 137ms (Views: 135.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:23:16 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/1" for 173.64.67.222 at 2015-09-22 20:23:21 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 112ms (Views: 109.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/Home" for 173.64.67.222 at 2015-09-22 20:23:23 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 106ms (Views: 104.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/Explore" for 173.64.67.222 at 2015-09-22 20:23:24 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Explore as HTML
+  Rendered pages/Explore.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 129ms (Views: 127.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/ShortStories" for 173.64.67.222 at 2015-09-22 20:23:25 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#ShortStories as HTML
+  Rendered pages/ShortStories.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 109ms (Views: 107.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/Explore" for 173.64.67.222 at 2015-09-22 20:23:27 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Explore as HTML
+  Rendered pages/Explore.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 112ms (Views: 110.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/Home" for 173.64.67.222 at 2015-09-22 20:23:28 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 139ms (Views: 138.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/1" for 173.64.67.222 at 2015-09-22 20:23:31 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 117ms (Views: 115.2ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/logout" for 173.64.67.222 at 2015-09-22 20:23:40 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"uQVpIpHC1J4ZoCORFAkwdUtu6NISK4KWZ1qB1K4Gz9x6tyys4ZdTg8kuMWIILnc+trC+oRQRfN9VbycbDiXlvA=="}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template sessions/destroy, application/destroy with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ubuntu/workspace/app/views"
+):
+  actionview (4.2.1) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.1) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.1) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.1) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.1) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.1) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.1) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.1) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.1) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:819:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (32.8ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 20:23:52 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 106ms (Views: 105.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:23:53 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started DELETE "/logout" for 173.64.67.222 at 2015-09-22 20:24:39 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"D9mKcT/Q9+fhWGqpYk/vIZuuUMy6YFD+21YibesRPNzMa8//T4Vw+jHWeFp+aKhqZnAGv7xarrfpY4SiSzIWvA=="}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant SessionsController::Home):
+  app/controllers/sessions_controller.rb:15:in `destroy'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (42.5ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 20:24:50 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (10.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 118ms (Views: 116.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:24:50 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started DELETE "/logout" for 173.64.67.222 at 2015-09-22 20:25:06 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"IAu34ZVa4SlgtWWEQO58bEnSW/Xed+gUTWH71T57PULjufJv5Q9mNLA7d3dcyTsntAwNhthNFl1/VF0anlgXIg=="}
+Redirected to https://cizeup-azsro.c9.iopages_Home_path
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 20:25:10 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (12.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 121ms (Views: 119.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:25:11 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started DELETE "/logout" for 173.64.67.222 at 2015-09-22 20:25:24 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+SyntaxError (/home/ubuntu/workspace/app/controllers/sessions_controller.rb:15: unterminated string meets end of file
+/home/ubuntu/workspace/app/controllers/sessions_controller.rb:15: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/sessions_controller.rb:15: unterminated string meets end of file
+  app/controllers/sessions_controller.rb:15: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (43.5ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 20:25:59 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (9.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 121ms (Views: 119.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:25:59 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 20:26:06 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 133ms (Views: 131.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:26:07 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Home" for 173.64.67.222 at 2015-09-22 20:26:10 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 115ms (Views: 114.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/1" for 173.64.67.222 at 2015-09-22 20:26:20 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 103ms (Views: 100.4ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/logout" for 173.64.67.222 at 2015-09-22 20:26:58 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"sMGqRWKDwtjNraD7r+DtqOkdpbEdZtVLRZCscBBDweBzc+/LEtZFxR0jsgizx6rjFMPzwhtcKwJ3pQq/sGDrgA=="}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template sessions/destroy, application/destroy with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ubuntu/workspace/app/views"
+):
+  actionview (4.2.1) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.1) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.1) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.1) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.1) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.1) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.1) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.1) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.1) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:819:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (27.1ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 20:27:04 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 98ms (Views: 96.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:27:04 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Help" for 173.64.67.222 at 2015-09-22 20:27:08 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Help as HTML
+  Rendered pages/Help.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 130ms (Views: 128.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/Home" for 173.64.67.222 at 2015-09-22 20:27:09 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 127ms (Views: 125.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/1" for 173.64.67.222 at 2015-09-22 20:27:10 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 164ms (Views: 162.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/Home" for 173.64.67.222 at 2015-09-22 20:28:52 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 124ms (Views: 122.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 20:32:58 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (10.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 97ms (Views: 95.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:32:59 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started DELETE "/logout" for 173.64.67.222 at 2015-09-22 20:33:01 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"WyFlS3foTCGqQVHePFu8cPW2ZAe/ZtcW7lqW5mtLtfaYkyDFB73LPHrPQy0gfPs7CGgydLlcKV/cbzApy2iflg=="}
+Redirected to https://cizeup-azsro.c9.io/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 20:33:01 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 92ms (Views: 90.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:33:02 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/login" for 173.64.67.222 at 2015-09-22 20:33:05 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (26.9ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 172ms (Views: 160.5ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/login" for 173.64.67.222 at 2015-09-22 20:33:14 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2BwmHVMNDJw8HifdICSKbC3d2YPu9b1CB9NcWvqbzHUbrmOTI1iLgeyQNS48A80n0AOP8OjPQws15vqVWrjmFQ==", "session"=>{"email"=>"highflight109@msn.com", "password"=>"[FILTERED]"}, "commit"=>"Sign In"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "highflight109@msn.com"]]
+Redirected to https://cizeup-azsro.c9.io/users/1
+Completed 302 Found in 79ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/users/1" for 173.64.67.222 at 2015-09-22 20:33:14 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 130ms (Views: 127.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/Home" for 173.64.67.222 at 2015-09-22 20:33:18 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 112ms (Views: 110.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:33:19 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Explore" for 173.64.67.222 at 2015-09-22 20:33:20 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Explore as HTML
+  Rendered pages/Explore.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 91ms (Views: 90.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/Theater" for 173.64.67.222 at 2015-09-22 20:33:22 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Theater as HTML
+  Rendered pages/Theater.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 94ms (Views: 92.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/Explore" for 173.64.67.222 at 2015-09-22 20:33:23 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Explore as HTML
+  Rendered pages/Explore.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 106ms (Views: 105.0ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/logout" for 173.64.67.222 at 2015-09-22 20:33:26 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"SwDXaCqhoyoc86+wKw8xdrxN9XV+bJW2slVo+wHb0FqIspLmWvQkN8x9vUM3KHY9QZOjBnhWa/+AYM40ofj6Og=="}
+Redirected to https://cizeup-azsro.c9.io/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 20:33:26 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 98ms (Views: 96.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:33:27 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
