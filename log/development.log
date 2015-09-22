@@ -17567,3 +17567,18 @@ Completed 200 OK in 84ms (Views: 83.3ms | ActiveRecord: 0.0ms)
 
 Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 18:37:27 +0000
 Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-22 18:40:44 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_iepart.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 300ms (Views: 288.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 18:40:44 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
