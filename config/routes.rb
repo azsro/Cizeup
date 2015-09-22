@@ -42,8 +42,6 @@ Rails.application.routes.draw do
   
   get 'show' => 'users#show'
   
-  
-  
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
