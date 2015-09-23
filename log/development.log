@@ -21180,3 +21180,678 @@ Completed 200 OK in 119ms (Views: 117.2ms | ActiveRecord: 0.6ms)
 
 Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-22 20:47:48 +0000
 Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 98.117.54.64 at 2015-09-23 17:29:43 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_iepart.html.erb (0.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (12.6ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 863ms (Views: 848.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/Homepage.gif" for 98.117.54.64 at 2015-09-23 17:29:45 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddedRememberDigestToUsers (20150923173641)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mALTER TABLE "users" ADD "remember_digest" varchar[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150923173641"]]
+  [1m[36m (95.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+
+
+Started GET "/" for 98.117.54.64 at 2015-09-23 18:01:51 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_iepart.html.erb (0.7ms)
+  Rendered layouts/_header.html.erb (4.6ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 2203ms (Views: 2192.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 98.117.54.64 at 2015-09-23 18:01:54 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/custom.self-197369f2b5de9e7f123b6ade6d153f63a3834b27c2b2fc641650bb2bcc3a20f8.css?body=1" for 98.117.54.64 at 2015-09-23 18:01:54 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 98.117.54.64 at 2015-09-23 18:01:58 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 137ms (Views: 135.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 98.117.54.64 at 2015-09-23 18:01:58 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Explore" for 98.117.54.64 at 2015-09-23 18:02:00 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Explore as HTML
+  Rendered pages/Explore.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_iepart.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 153ms (Views: 151.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 98.117.54.64 at 2015-09-23 18:02:02 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (18.6ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 133ms (Views: 132.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 98.117.54.64 at 2015-09-23 18:02:13 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4vZUqoHXH/aqetxntZSghY+m2vK79t72WBLCP/t0ivYhRBEk8YKY63r0zpSps+fOcniMgb3MIL9qJ2TwW1eglg==", "session"=>{"email"=>"highflight109@msn.com", "password"=>"[FILTERED]"}, "commit"=>"Sign In"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "highflight109@msn.com"]]
+Completed 500 Internal Server Error in 89ms (ActiveRecord: 0.8ms)
+
+NoMethodError (undefined method `forget' for #<SessionsController:0x007f8bbab272d8>):
+  app/controllers/sessions_controller.rb:7:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (41.0ms)
+
+
+Started GET "/" for 98.117.54.64 at 2015-09-23 18:02:39 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 132ms (Views: 131.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 98.117.54.64 at 2015-09-23 18:02:40 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/login" for 98.117.54.64 at 2015-09-23 18:02:42 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 108ms (Views: 106.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 98.117.54.64 at 2015-09-23 18:02:49 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (2.7ms)
+  Rendered users/new.html.erb within layouts/application (8.8ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 105ms (Views: 103.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Explore" for 98.117.54.64 at 2015-09-23 18:02:53 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Explore as HTML
+  Rendered pages/Explore.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 137ms (Views: 135.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 98.117.54.64 at 2015-09-23 18:02:57 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 238ms (Views: 236.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 98.117.54.64 at 2015-09-23 18:04:02 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 86ms (Views: 85.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 98.117.54.64 at 2015-09-23 18:04:02 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/login" for 98.117.54.64 at 2015-09-23 18:04:04 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 155ms (Views: 153.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 98.117.54.64 at 2015-09-23 18:04:15 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mcU+1KYQV//uVdg4jagk3xstiBG9orHhVeu4Sw1NWJtad3ta1kXQ4j7bysuRj2OU5vPeYruYT6hn3h6ErW5y+w==", "session"=>{"email"=>"highflight109@msn.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign In"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "highflight109@msn.com"]]
+  Rendered pages/Login.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 256ms (Views: 164.9ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/login" for 98.117.54.64 at 2015-09-23 18:04:26 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mubepYBIPYH8OJreA4NfvkFj5PzpeuA76sBNjFir6dZZVJsr8B26nCy2iC0fpBj1vL2yj+9AHnLY9etD+IjDtg==", "session"=>{"email"=>"highflight109@msn.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign In"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "highflight109@msn.com"]]
+Completed 500 Internal Server Error in 88ms (ActiveRecord: 0.2ms)
+
+NoMethodError (undefined method `forget' for #<SessionsController:0x007f8bbbc614e0>):
+  app/controllers/sessions_controller.rb:7:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (42.5ms)
+
+
+Started GET "/" for 98.117.54.64 at 2015-09-23 18:39:51 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 276ms (Views: 274.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 98.117.54.64 at 2015-09-23 18:39:52 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Explore" for 98.117.54.64 at 2015-09-23 18:41:58 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Explore as HTML
+  Rendered pages/Explore.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 212ms (Views: 210.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/ShortStories" for 98.117.54.64 at 2015-09-23 18:42:00 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#ShortStories as HTML
+  Rendered pages/ShortStories.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 170ms (Views: 168.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Explore" for 98.117.54.64 at 2015-09-23 18:42:01 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Explore as HTML
+  Rendered pages/Explore.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 214ms (Views: 213.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 98.117.54.64 at 2015-09-23 18:42:02 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 189ms (Views: 188.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 98.117.54.64 at 2015-09-23 18:42:13 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UGCSjvRq+fW2tpnIq0fTbAehFtSA9xbF4jZ+xAWyBt6T0tcAhD9+6GY4izu3YJQn+n9Ap4bN6IzQA9gLpZEsvg==", "session"=>{"email"=>"highflight109@msn.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign In"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "highflight109@msn.com"]]
+  Rendered pages/Login.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 307ms (Views: 222.8ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/login" for 98.117.54.64 at 2015-09-23 18:42:23 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hZECieYJECAuoJEH2x0jsxQAGhyKEEnXPJ0DDj19CzVGI0cHllyXPf4ug/THOmT46d5Mb4wqt54OqKXBnV4hVQ==", "session"=>{"email"=>"highflight109@msn.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign In"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "highflight109@msn.com"]]
+Completed 500 Internal Server Error in 89ms (ActiveRecord: 0.2ms)
+
+NoMethodError (undefined method `forget' for #<SessionsController:0x007f8bbb531580>):
+  app/controllers/sessions_controller.rb:7:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (170.3ms)
+
+
+Started GET "/" for 98.117.54.64 at 2015-09-23 18:47:42 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 235ms (Views: 234.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 98.117.54.64 at 2015-09-23 18:47:43 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/login" for 98.117.54.64 at 2015-09-23 18:47:44 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 291ms (Views: 289.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 98.117.54.64 at 2015-09-23 18:47:58 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"92MHu9x40MayqcYzSvNjxeOpyLLqednJ0Ok+wp3Zta400UI1rC1X22In1MBW1CSOHneewexDJ4Di3JgNPfqfzg==", "session"=>{"email"=>"highflight109@msn.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign In"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "highflight109@msn.com"]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to https://cizeup-azsro.c9.io/users/1
+Completed 302 Found in 104ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/users/1" for 98.117.54.64 at 2015-09-23 18:47:59 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 118ms (Views: 115.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/1" for 98.117.54.64 at 2015-09-23 18:48:04 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 115ms (Views: 112.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/Help" for 98.117.54.64 at 2015-09-23 18:48:07 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Help as HTML
+  Rendered pages/Help.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 136ms (Views: 134.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/Home" for 98.117.54.64 at 2015-09-23 18:48:08 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 132ms (Views: 130.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/Homepage.gif" for 98.117.54.64 at 2015-09-23 18:48:08 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started DELETE "/logout" for 98.117.54.64 at 2015-09-23 18:48:13 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"K8Gg4qOMHolOsKCC0jzus8A3i9Qlc692UD73lEUyDG7oc+Vs09mZlJ4+snHOG6n4PendpyNJUT9iC1Fb5REmDg=="}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Redirected to https://cizeup-azsro.c9.io/
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 98.117.54.64 at 2015-09-23 18:48:13 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 109ms (Views: 107.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 98.117.54.64 at 2015-09-23 18:48:13 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/login" for 98.117.54.64 at 2015-09-23 18:48:17 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 116ms (Views: 115.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 98.117.54.64 at 2015-09-23 18:48:33 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rXNAMyBVufibARQW0sycMBmqXvU0ffiPghMgyQzD/ghuwQW9UAA+5UuPBuXO69t75HQIhjJHBsawJoYGrODUaA==", "session"=>{"email"=>"highflight109@msn.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Sign In"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "highflight109@msn.com"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "remember_digest" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["remember_digest", "$2a$10$VjQDYQTQoh4KiB4IifrrPeoxzHP8ZRfBuJEMdsVhv5pzGNlVrMk5O"], ["updated_at", "2015-09-23 18:48:33.830567"], ["id", 1]]
+  [1m[35m (8.6ms)[0m  commit transaction
+Redirected to https://cizeup-azsro.c9.io/users/1
+Completed 302 Found in 152ms (ActiveRecord: 9.3ms)
+
+
+Started GET "/users/1" for 98.117.54.64 at 2015-09-23 18:48:33 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 112ms (Views: 110.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/1" for 98.117.54.64 at 2015-09-23 18:48:37 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 145ms (Views: 143.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/Help" for 98.117.54.64 at 2015-09-23 18:48:37 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Help as HTML
+  Rendered pages/Help.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 112ms (Views: 110.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/Home" for 98.117.54.64 at 2015-09-23 18:48:38 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 113ms (Views: 111.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/Homepage.gif" for 98.117.54.64 at 2015-09-23 18:48:38 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Explore" for 98.117.54.64 at 2015-09-23 18:48:40 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Explore as HTML
+  Rendered pages/Explore.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 95ms (Views: 93.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/Theater" for 98.117.54.64 at 2015-09-23 18:48:41 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Theater as HTML
+  Rendered pages/Theater.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 95ms (Views: 94.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 98.117.54.64 at 2015-09-23 18:48:43 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 99ms (Views: 97.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/Homepage.gif" for 98.117.54.64 at 2015-09-23 18:48:44 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 98.117.54.64 at 2015-09-23 18:48:58 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 79ms (Views: 78.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/Homepage.gif" for 98.117.54.64 at 2015-09-23 18:48:58 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 98.117.54.64 at 2015-09-23 18:49:13 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_iepart.html.erb (0.3ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (22.2ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 356ms (Views: 343.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/Homepage.gif" for 98.117.54.64 at 2015-09-23 18:49:14 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started DELETE "/logout" for 98.117.54.64 at 2015-09-23 18:49:17 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"9Jj3pSeNiLLcpN4H4UsCADaHzmgjqtaov5Zb4VfBRUg3KrIrV9gPrwwqzPT9bEVLy1mYGyWQKOGNo/0u9+JvKA=="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "remember_digest" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["remember_digest", nil], ["updated_at", "2015-09-23 18:49:17.056288"], ["id", 1]]
+  [1m[35m (29.1ms)[0m  commit transaction
+Redirected to https://cizeup-azsro.c9.io/
+Completed 302 Found in 36ms (ActiveRecord: 29.9ms)
+
+
+Started GET "/" for 98.117.54.64 at 2015-09-23 18:49:17 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (5.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 213ms (Views: 212.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 98.117.54.64 at 2015-09-23 18:49:17 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 98.117.54.64 at 2015-09-23 18:49:22 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 106ms (Views: 105.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 98.117.54.64 at 2015-09-23 18:49:23 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/login" for 98.117.54.64 at 2015-09-23 18:49:31 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (17.9ms)
+  Rendered layouts/_iepart.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 141ms (Views: 140.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 98.117.54.64 at 2015-09-23 18:49:39 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zFacxeVUshOeP5mroV3xj4CtaZnl98ji2Fr8VilynK8P5NlLlQE1Dk6xi1i9erbEfXM/6uPNNqvqb1qZiVG2zw==", "session"=>{"email"=>"highflight109@msn.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign In"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "highflight109@msn.com"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to https://cizeup-azsro.c9.io/users/1
+Completed 302 Found in 80ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/users/1" for 98.117.54.64 at 2015-09-23 18:49:40 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 110ms (Views: 107.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/Home" for 98.117.54.64 at 2015-09-23 18:49:43 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 85ms (Views: 84.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/Homepage.gif" for 98.117.54.64 at 2015-09-23 18:49:43 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 98.117.54.64 at 2015-09-23 18:50:01 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 106ms (Views: 105.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/Homepage.gif" for 98.117.54.64 at 2015-09-23 18:50:02 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started DELETE "/logout" for 98.117.54.64 at 2015-09-23 18:50:10 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"BpsLMAEoLmzcrrFAYesjiGIpnY6+8pKNZXKURXgb+CjFKU6+cX2pcQwgo7N9zGTDn/fL/bjIbMRXRzKK2DjSSA=="}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to https://cizeup-azsro.c9.io/
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 98.117.54.64 at 2015-09-23 18:50:10 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 108ms (Views: 107.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 98.117.54.64 at 2015-09-23 18:50:10 +0000
+Cannot render console from 98.117.54.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
