@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  
-  get 'sessions/new'
 
   resources :users
 
@@ -38,13 +36,17 @@ Rails.application.routes.draw do
   
   # User Routing
   
-  get 'users/new'
-  
   get 'signup' => 'users#new'
   
   get 'show' => 'users#show'
   
+  get 'update' => 'users#edit'
+  
+  get 'index' => 'users#index'
+  
   # Sessions Routing 
+  
+  get 'sessions/new'
   
   get    'login'   => 'pages#Login'
   

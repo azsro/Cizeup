@@ -1,7 +1,7 @@
-<% provide(:title, 'Sign up') %>
+<% provide(:title, 'Update Account') %>
 <div class="center jumbotron">
     <body style="background-color:lightblue">
-      <h1>Create an Account</h1>
+      <h1>Edit Your Account</h1>
     </body>
 
 <div class="row">
@@ -21,7 +21,12 @@
       <%= f.label :password_confirmation, "Confirmation" %>
       <%= f.password_field :password_confirmation, class: 'form-control' %>
 
-      <%= f.submit "Create my account", class: "btn btn-primary" %>
+      <%= f.submit "Save changes", class: "btn btn-primary" %>
     <% end %>
+
+    <div class="gravatar_edit">
+      <%= gravatar_for @user %>
+      <a href="http://gravatar.com/emails" target="_blank">change</a>
+    </div>
   </div>
 </div>

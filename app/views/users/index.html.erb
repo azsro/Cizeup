@@ -1,0 +1,13 @@
+<% provide(:title, 'All Users') %>
+<div class="center jumbotron">
+    <body style="background-color:lightblue">
+      <h1>All Users</h1>
+    </body>
+
+<%= will_paginate %>
+
+<ul class="users">
+   <%= render @users %>
+</ul>
+
+<%= will_paginate %>

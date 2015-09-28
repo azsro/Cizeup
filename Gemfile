@@ -29,6 +29,13 @@ gem 'bcrypt', '3.1.7'
 gem 'puma', '2.11.1'
 # allows for heroku webserver deployment 
 
+gem 'faker', '1.4.2'
+#allows us to create realistic looking sample users
+
+gem 'will_paginate', '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
+#allows for a clean format to the users index page
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 

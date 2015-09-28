@@ -8,7 +8,7 @@ class User < ActiveRecord::Base
         uniqueness: { case_sensitive: false}                    # Valiadates the uniqueness of an email, only at model level (not database level)
 
     has_secure_password
-     validates :password, presence: true, length: { minimum: 6 } # Validates precese of a passowrd, and minimum length
+     validates :password, presence: true, length: { minimum: 6 }, allow_nil: true # Validates precese of a passowrd, and minimum length
      
     # Returns the hash digest of the given string.
   def User.digest(string)
