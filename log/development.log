@@ -32883,3 +32883,2148 @@ Processing by UsersController#show as HTML
   Rendered layouts/_header.html.erb (2.3ms)
   Rendered layouts/_footer.html.erb (0.1ms)
 Completed 200 OK in 111ms (Views: 108.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/account_activations/65VVnFfBeHivwhhOTU6Hew/edit?email=highflight109%40msn.com&" for 173.64.67.222 at 2015-09-29 18:15:11 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AccountActivationsController#edit as HTML
+  Parameters: {"email"=>"highflight109@msn.com", "id"=>"65VVnFfBeHivwhhOTU6Hew"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "highflight109@msn.com"]]
+Redirected to https://cizeup-azsro.c9.io/
+Completed 302 Found in 39ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-29 18:15:12 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_iepart.html.erb (0.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 105]]
+  Rendered layouts/_header.html.erb (2.8ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 249ms (Views: 247.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-29 18:15:12 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started DELETE "/logout" for 173.64.67.222 at 2015-09-29 18:16:30 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"goW7UiT5P55Wv7PZhIuISFMTUsauaDNtNrgzkhbdVAhBN/7cVKy4g4YxoSqYrM8Drs0EtahSzSQEjZVdtv5+aA=="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 105]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to https://cizeup-azsro.c9.io/
+Completed 302 Found in 7ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-29 18:16:30 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (4.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 196ms (Views: 195.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-29 18:16:31 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/login" for 173.64.67.222 at 2015-09-29 18:16:32 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (254.2ms)
+  Rendered layouts/_iepart.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 376ms (Views: 375.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 173.64.67.222 at 2015-09-29 18:16:39 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1cWZe0upi/dmd+fE7aIuyGnP6ZijZ8r7irgugyTm+/IWd9z1O/wM6rb59TfxhWmDlBG/66VdNLK4jYhMhMXRkg==", "session"=>{"email"=>"highflight109@msn.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign In"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "highflight109@msn.com"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to https://cizeup-azsro.c9.io/users/105
+Completed 302 Found in 80ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/users/105" for 173.64.67.222 at 2015-09-29 18:16:39 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"105"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 105]]
+  Rendered users/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 105]]
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 111ms (Views: 108.1ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/logout" for 173.64.67.222 at 2015-09-29 18:16:43 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"UF2FMIwNk+A63vHtYxkAlNcWjYid/IJ/QCrC6Tl0EI+T78C+/FgU/epQ4x5/PkffKsjb+5vGfDZyH2QmmVc67w=="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 105]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to https://cizeup-azsro.c9.io/
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-29 18:16:44 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 130ms (Views: 129.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-29 18:16:44 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Home" for 173.64.67.222 at 2015-09-29 18:16:45 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 149ms (Views: 148.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 173.64.67.222 at 2015-09-29 18:16:46 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 109ms (Views: 108.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 173.64.67.222 at 2015-09-29 18:16:48 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (2.7ms)
+  Rendered users/new.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 137ms (Views: 136.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 173.64.67.222 at 2015-09-29 18:17:03 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"r/jzdBRiFYQFtX3xogbnjX72OvraGV3G5VjZHnmgbbJsSrb6ZDeSmdU7bwK+IaDGgyhsidwjo4/XbX/R2YNH0g==", "user"=>{"name"=>"Tyler", "email"=>"jtylercohen@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('jtylercohen@gmail.com') LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Tyler"], ["email", "jtylercohen@gmail.com"], ["password_digest", "$2a$10$rR84xusJwMS9etFRDm11rOjJX7xVeaHM9ArB/mIiMnlysCr2qgFRW"], ["created_at", "2015-09-29 18:17:03.871253"], ["updated_at", "2015-09-29 18:17:03.871253"], ["activation_digest", "$2a$10$vimK.pkkWNEw/jfRHtBgNOzeg7jVwANkjl5mvE.Skjry9lRB4DZKS"]]
+  [1m[35m (9.0ms)[0m  commit transaction
+  Rendered user_mailer/account_activation.html.erb within layouts/mailer (1.1ms)
+  Rendered user_mailer/account_activation.text.erb within layouts/mailer (10.0ms)
+
+UserMailer#account_activation: processed outbound mail in 282.5ms
+
+Sent mail to jtylercohen@gmail.com (8.8ms)
+Date: Tue, 29 Sep 2015 18:17:04 +0000
+From: noreply@example.com
+To: jtylercohen@gmail.com
+Message-ID: <560ad5a053003_4112153aaec6982e@azsro-cizeup-1750014.mail>
+Subject: Account Activation
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_560ad5a0510b3_4112153aaec6977d";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_560ad5a0510b3_4112153aaec6977d
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hello Tyler,
+
+Welcome to Cizeup! Click on the link below to activate your account:
+
+http://cizeup-azsro.c9.io/account_activations/o7ZcyiFIeAjWHHP42ixdbw/edit?email=jtylercohen%40gmail.com
+
+----==_mimepart_560ad5a0510b3_4112153aaec6977d
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <h1>Cizeup</h1>
+
+<p>Hello Tyler,</p>
+
+<p>
+Welcome to Cizeup! Click on the link below to activate your account:
+</p>
+
+<a href="http://cizeup-azsro.c9.io/account_activations/o7ZcyiFIeAjWHHP42ixdbw/edit?email=jtylercohen%40gmail.com">Activate</a>
+  </body>
+</html>
+
+----==_mimepart_560ad5a0510b3_4112153aaec6977d--
+
+Redirected to https://cizeup-azsro.c9.io/
+Completed 302 Found in 565ms (ActiveRecord: 9.8ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-29 18:17:04 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 104ms (Views: 103.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-29 18:17:04 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/account_activations/o7ZcyiFIeAjWHHP42ixdbw/edit?email=jtylercohen%40gmail.com&" for 173.64.67.222 at 2015-09-29 18:17:43 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccountActivationsController#edit as HTML
+  Parameters: {"email"=>"jtylercohen@gmail.com", "id"=>"o7ZcyiFIeAjWHHP42ixdbw"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "jtylercohen@gmail.com"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "users" SET "activated" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["activated", "t"], ["updated_at", "2015-09-29 18:17:43.532177"], ["id", 106]]
+  [1m[35m (8.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "activated_at" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["activated_at", "2015-09-29 18:17:43.543905"], ["updated_at", "2015-09-29 18:17:43.544439"], ["id", 106]]
+  [1m[36m (5.8ms)[0m  [1mcommit transaction[0m
+Redirected to https://cizeup-azsro.c9.io/users/106
+Completed 302 Found in 95ms (ActiveRecord: 15.4ms)
+
+
+Started GET "/users/106" for 173.64.67.222 at 2015-09-29 18:17:43 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"106"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 106]]
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 106]]
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 103ms (Views: 100.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/Home" for 173.64.67.222 at 2015-09-29 18:19:06 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 106]]
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 115ms (Views: 114.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-29 18:19:06 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/account_activations/o7ZcyiFIeAjWHHP42ixdbw/edit?email=jtylercohen%40gmail.com&" for 173.64.67.222 at 2015-09-29 18:23:32 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AccountActivationsController#edit as HTML
+  Parameters: {"email"=>"jtylercohen@gmail.com", "id"=>"o7ZcyiFIeAjWHHP42ixdbw"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "jtylercohen@gmail.com"]]
+Redirected to https://cizeup-azsro.c9.io/
+Completed 302 Found in 44ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-29 18:23:32 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_iepart.html.erb (0.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 106]]
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 613ms (Views: 611.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/password_resets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 173.64.67.222 at 2015-09-29 18:23:33 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/password_resets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 173.64.67.222 at 2015-09-29 18:23:33 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-29 18:23:33 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started DELETE "/logout" for 173.64.67.222 at 2015-09-29 18:23:37 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"nzjBOqFeakY0+rz/4bFD2qmyTBhOc7wx5YPo0mSgmclcioS00QvtW+R0rgz9lgSRVGwaa0hJQnjXtk4dxIOzqQ=="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 106]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to https://cizeup-azsro.c9.io/
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-29 18:23:37 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (4.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 115ms (Views: 114.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-29 18:23:38 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/Home" for 173.64.67.222 at 2015-09-29 18:23:39 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_iepart.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 109ms (Views: 108.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Help" for 173.64.67.222 at 2015-09-29 18:23:44 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Help as HTML
+  Rendered pages/Help.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 167ms (Views: 165.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Home" for 173.64.67.222 at 2015-09-29 18:23:45 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 145ms (Views: 144.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 173.64.67.222 at 2015-09-29 18:23:46 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (311.9ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 439ms (Views: 437.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/password_resets/new" for 173.64.67.222 at 2015-09-29 18:23:54 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#new as HTML
+  Rendered password_resets/new.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 170ms (Views: 169.4ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddResetToUsers (20150929182434)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mALTER TABLE "users" ADD "reset_digest" varchar[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150929182434"]]
+  [1m[36m (12.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+
+
+Started GET "/account_activations/o7ZcyiFIeAjWHHP42ixdbw/edit?email=jtylercohen%40gmail.com&" for 173.64.67.222 at 2015-09-29 18:25:38 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AccountActivationsController#edit as HTML
+  Parameters: {"email"=>"jtylercohen@gmail.com", "id"=>"o7ZcyiFIeAjWHHP42ixdbw"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "jtylercohen@gmail.com"]]
+Redirected to https://cizeup-azsro.c9.io/
+Completed 302 Found in 36ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-29 18:25:38 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_iepart.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (8.8ms)
+  Rendered layouts/_footer.html.erb (3.4ms)
+Completed 200 OK in 469ms (Views: 467.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-29 18:25:39 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-29 18:25:51 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 160ms (Views: 158.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-29 18:25:51 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/login" for 173.64.67.222 at 2015-09-29 18:25:52 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (292.3ms)
+  Rendered layouts/_iepart.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 411ms (Views: 410.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/password_resets/new" for 173.64.67.222 at 2015-09-29 18:25:54 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#new as HTML
+  Rendered password_resets/new.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 114ms (Views: 112.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-29 18:27:34 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 99ms (Views: 97.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-29 18:27:35 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/login" for 173.64.67.222 at 2015-09-29 18:27:36 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 125ms (Views: 123.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/password_resets/new" for 173.64.67.222 at 2015-09-29 18:27:37 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#new as HTML
+  Rendered password_resets/new.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 116ms (Views: 115.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/user_mailer/password_reset" for 173.64.67.222 at 2015-09-29 18:34:04 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"user_mailer/password_reset"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered user_mailer/password_reset.html.erb within layouts/mailer (0.8ms)
+  Rendered user_mailer/password_reset.text.erb within layouts/mailer (0.5ms)
+
+UserMailer#password_reset: processed outbound mail in 293.0ms
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/railties-4.2.1/lib/rails/templates/rails/mailers/email.html.erb (13.6ms)
+Completed 200 OK in 341ms (Views: 16.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/rails/mailers/user_mailer/password_reset?part=text%2Fhtml" for 173.64.67.222 at 2015-09-29 18:34:05 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"user_mailer/password_reset"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered user_mailer/password_reset.html.erb within layouts/mailer (0.3ms)
+  Rendered user_mailer/password_reset.text.erb within layouts/mailer (0.2ms)
+
+UserMailer#password_reset: processed outbound mail in 12.1ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 19ms (Views: 3.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/rails/mailers/user_mailer/password_reset" for 173.64.67.222 at 2015-09-29 18:34:19 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"path"=>"user_mailer/password_reset"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered user_mailer/password_reset.html.erb within layouts/mailer (0.3ms)
+  Rendered user_mailer/password_reset.text.erb within layouts/mailer (0.2ms)
+
+UserMailer#password_reset: processed outbound mail in 11.0ms
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/railties-4.2.1/lib/rails/templates/rails/mailers/email.html.erb (5.2ms)
+Completed 200 OK in 21ms (Views: 6.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/rails/mailers/user_mailer/password_reset?part=text%2Fhtml" for 173.64.67.222 at 2015-09-29 18:34:19 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"part"=>"text/html", "path"=>"user_mailer/password_reset"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered user_mailer/password_reset.html.erb within layouts/mailer (0.3ms)
+  Rendered user_mailer/password_reset.text.erb within layouts/mailer (0.2ms)
+
+UserMailer#password_reset: processed outbound mail in 10.3ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 13ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-29 18:34:22 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 110ms (Views: 109.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-29 18:34:22 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/login" for 173.64.67.222 at 2015-09-29 18:35:06 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 132ms (Views: 131.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/password_resets/new" for 173.64.67.222 at 2015-09-29 18:35:08 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#new as HTML
+  Rendered password_resets/new.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 137ms (Views: 136.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/password_resets" for 173.64.67.222 at 2015-09-29 18:35:17 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KQrtwUgQ7sZHk3DUS9yC7GU9SgjVt8PCoDmQmPPtVO/quKhPOEVp25cdYidX+8WnmOMce9ONPYuSDDZXU85+jw==", "password_reset"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "highflight109@msn.com"]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "reset_digest" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["reset_digest", "$2a$10$L3QmGbQn6cCXym9poL3wU.Z87amJWYQk0r6pea5rAKX1AlH8yPmSK"], ["updated_at", "2015-09-29 18:35:17.774592"], ["id", 105]]
+  [1m[35m (7.5ms)[0m  commit transaction
+Completed 500 Internal Server Error in 102ms (ActiveRecord: 9.3ms)
+
+NoMethodError (undefined method `reset_sent_at=' for #<User:0x007f07373eb008>):
+  app/models/user.rb:59:in `create_reset_digest'
+  app/controllers/password_resets_controller.rb:8:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (33.6ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-29 18:41:25 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_iepart.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (8.5ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 386ms (Views: 374.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-29 18:41:26 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/login" for 173.64.67.222 at 2015-09-29 18:41:28 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (346.1ms)
+  Rendered layouts/_iepart.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 488ms (Views: 487.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/password_resets/new" for 173.64.67.222 at 2015-09-29 18:41:29 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#new as HTML
+  Rendered password_resets/new.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 160ms (Views: 158.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/password_resets" for 173.64.67.222 at 2015-09-29 18:41:35 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mZ6Weo+ELZeTIlMvvzcOY+KgjQEM7mHmGAJTy9vd8ClaLNP0/9GqikOsQdyjEEkoH37bcgrUn68qN/UEe/7aSQ==", "password_reset"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "highflight109@msn.com"]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "users" SET "reset_digest" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["reset_digest", "$2a$10$vyjsia3slR1QLrQptEhCc.aGG6eBaqRxW.R3Pa8Nc63DDGMJg3IOq"], ["updated_at", "2015-09-29 18:41:35.638904"], ["id", 105]]
+  [1m[36m (6.9ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 128ms (ActiveRecord: 8.8ms)
+
+NoMethodError (undefined method `reset_sent_at=' for #<User:0x007fe9e6b13500>):
+  app/models/user.rb:59:in `create_reset_digest'
+  app/controllers/password_resets_controller.rb:8:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (36.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-29 18:47:49 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_iepart.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (5.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 305ms (Views: 292.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-29 18:47:51 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/login" for 173.64.67.222 at 2015-09-29 18:47:53 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (344.1ms)
+  Rendered layouts/_iepart.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 487ms (Views: 485.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/password_resets/new" for 173.64.67.222 at 2015-09-29 18:47:55 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#new as HTML
+  Rendered password_resets/new.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 118ms (Views: 117.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/password_resets" for 173.64.67.222 at 2015-09-29 18:48:09 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kX1VPzRAIE6WgrxCQ7EkxrURSFh5ynuUfZb/mYi1vLtSzxCxRBWnU0YMrrFflmONSM8eK3/whd1Po1lWKJaW2w==", "password_reset"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "highflight109@msn.com"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "reset_digest" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["reset_digest", "$2a$10$hV.K833jsG5qOr17.c68OOo1DKjm5VcXASSRya6POj4R10ONe2.vC"], ["updated_at", "2015-09-29 18:48:09.551649"], ["id", 105]]
+  [1m[36m (7.0ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 122ms (ActiveRecord: 8.5ms)
+
+NoMethodError (undefined method `reset_sent_at=' for #<User:0x007f6fe67be348>):
+  app/models/user.rb:59:in `create_reset_digest'
+  app/controllers/password_resets_controller.rb:8:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (31.8ms)
+  [1m[36m (10.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (7.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20150918193337)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150918193337"]]
+  [1m[35m (9.0ms)[0m  commit transaction
+Migrating to AddIndexToUsersEmail (20150918200203)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150918200203"]]
+  [1m[35m (8.6ms)[0m  commit transaction
+Migrating to AddPasswordDigestToUsers (20150918201347)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  ALTER TABLE "users" ADD "password_digest" varchar
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150918201347"]]
+  [1m[35m (7.1ms)[0m  commit transaction
+Migrating to AddedRememberDigestToUsers (20150923173641)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "users" ADD "remember_digest" varchar
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150923173641"]]
+  [1m[35m (6.3ms)[0m  commit transaction
+Migrating to AddAdminToUsers (20150928204621)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "users" ADD "admin" boolean DEFAULT 'f'
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150928204621"]]
+  [1m[35m (7.1ms)[0m  commit transaction
+Migrating to AddActivationToUsers (20150929141115)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "users" ADD "activation_digest" varchar
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "users" ADD "activated" boolean DEFAULT 'f'[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "users" ADD "activated_at" datetime
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150929141115"]]
+  [1m[35m (6.3ms)[0m  commit transaction
+Migrating to AddResetToUsers (20150929182434)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  ALTER TABLE "users" ADD "reset_digest" varchar
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "users" ADD "reset_sent_at" datetime[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150929182434"]]
+  [1m[36m (10.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "admin", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Example User"], ["email", "example@fakeemail.com"], ["password_digest", "$2a$10$/APHQMjN0Zvfsdzu/E1UP.guMHg8URH5xrGoPWKIlKyBnt.a3Tj6G"], ["admin", "t"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:01.669974"], ["created_at", "2015-09-29 18:55:01.796506"], ["updated_at", "2015-09-29 18:55:01.796506"], ["activation_digest", "$2a$10$mPLFlegWqTtMcMRuM9DAHuPmJ92YRWNYDPQlL5M9NkGOH0QNmtCb2"]]
+  [1m[36m (8.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-1@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Simeon Armstrong"], ["email", "example-1@fakeemail.com"], ["password_digest", "$2a$10$betvTxWEEJV7r6YKXPYrEOyChTGh0F1O8un4qsn0bOgRB75/oLWJi"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:02.236842"], ["created_at", "2015-09-29 18:55:02.310813"], ["updated_at", "2015-09-29 18:55:02.310813"], ["activation_digest", "$2a$10$SFqh6dfN925eGe75WLPzJeuM8pJYtZblubecJDSHZAIAly0nAUB2a"]]
+  [1m[36m (7.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-2@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Golden Homenick"], ["email", "example-2@fakeemail.com"], ["password_digest", "$2a$10$mFI0Yc.T3HN.1fjL0y/d/ezgaBLZqMUbPh1scwBNOS0ZCOAcP09BW"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:02.453101"], ["created_at", "2015-09-29 18:55:02.523757"], ["updated_at", "2015-09-29 18:55:02.523757"], ["activation_digest", "$2a$10$2m5Tmcl.2ztVdG.4N2fyPOrY/SCknbU7/L3GD2Ih5HamGiZENDNpm"]]
+  [1m[36m (7.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-3@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Miss Florian Fisher"], ["email", "example-3@fakeemail.com"], ["password_digest", "$2a$10$547.PBNWvxHv9CvmVuxYP.ZkMUS87D4ZpqOc3TkSKwmHvJ04NdLie"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:02.667534"], ["created_at", "2015-09-29 18:55:02.738230"], ["updated_at", "2015-09-29 18:55:02.738230"], ["activation_digest", "$2a$10$2mgOnoWGepvGvCdooSFMWupdqL.UZuxJB9GuTVSRsaxE05zfvtx4."]]
+  [1m[36m (9.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-4@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Murphy Ondricka"], ["email", "example-4@fakeemail.com"], ["password_digest", "$2a$10$rWl32h5DD5ImQXE0dx/ypeDDDfEdUqi/o7niZAnLcQ4nTZfDzGu2G"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:02.886043"], ["created_at", "2015-09-29 18:55:02.959649"], ["updated_at", "2015-09-29 18:55:02.959649"], ["activation_digest", "$2a$10$nInIIur0JVJyFhzxSqO.wubLlfhY/ZO8uykh.f.Sg8xKwgfQWOpzq"]]
+  [1m[36m (7.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-5@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Miles Wilderman"], ["email", "example-5@fakeemail.com"], ["password_digest", "$2a$10$PrXO6vnOZd6BiGKPmwNQ7ehwc8kiYgv699Xz14Zfeb/Q6eKMiEKO."], ["activated", "t"], ["activated_at", "2015-09-29 18:55:03.116730"], ["created_at", "2015-09-29 18:55:03.189542"], ["updated_at", "2015-09-29 18:55:03.189542"], ["activation_digest", "$2a$10$Q70Wb6zXsYhZ/Zo8J.FHiOaCCA/j9r6Os.I/Gkum.WoMxx5HcfAzy"]]
+  [1m[36m (7.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-6@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Miss Robbie Emard"], ["email", "example-6@fakeemail.com"], ["password_digest", "$2a$10$AS/838UyGoN5PMjtBTUahuvY5GDjlenhHeHTYoBVGiYIGdoeAlypK"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:03.337808"], ["created_at", "2015-09-29 18:55:03.409578"], ["updated_at", "2015-09-29 18:55:03.409578"], ["activation_digest", "$2a$10$JH6xsw5RREl70BM9hYNArOLnJkuY/bUoM7ZhT8s50Sruwto7ABZYe"]]
+  [1m[36m (10.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-7@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Allan Harvey"], ["email", "example-7@fakeemail.com"], ["password_digest", "$2a$10$Ui1BLWRYILNhedGzMGsziupD9Od27exUp6yyntl6GE4whVG6kdL7y"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:03.563387"], ["created_at", "2015-09-29 18:55:03.637044"], ["updated_at", "2015-09-29 18:55:03.637044"], ["activation_digest", "$2a$10$8c4JOmufygM66PbrYkcole44XDhLuaRi5wuLrb/0.ROBXrIhuNPQ."]]
+  [1m[36m (7.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-8@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Edwina Kerluke"], ["email", "example-8@fakeemail.com"], ["password_digest", "$2a$10$9IBn7CDSVRjbGmVacH2WZe5fqfCqFDCXuk0ylu50aJpvld4b.17yq"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:03.784527"], ["created_at", "2015-09-29 18:55:03.857934"], ["updated_at", "2015-09-29 18:55:03.857934"], ["activation_digest", "$2a$10$RG53tdWaSsK9Ep65lwmVVeH.C0b6z4w.IkOMW1InAAnE3XVDMaRXK"]]
+  [1m[36m (8.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-9@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Sabryna Kub"], ["email", "example-9@fakeemail.com"], ["password_digest", "$2a$10$MnbGTJ71XCttV9uxMI1Jb.3oSLWTh/dp6B685YEhnSSXyAhSs4oNa"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:04.008721"], ["created_at", "2015-09-29 18:55:04.078704"], ["updated_at", "2015-09-29 18:55:04.078704"], ["activation_digest", "$2a$10$en/sNkN9Rt6QUSclQFkNPuWDdzqvgyJUGlwSyvcFL09vInplCsWmG"]]
+  [1m[36m (7.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-10@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Ricky Murphy II"], ["email", "example-10@fakeemail.com"], ["password_digest", "$2a$10$9SX5WNZQz4ohf8i3T48Xeet3sRmlRfhdDZZ.YGMIUopyBkPsGhcRi"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:04.225092"], ["created_at", "2015-09-29 18:55:04.295624"], ["updated_at", "2015-09-29 18:55:04.295624"], ["activation_digest", "$2a$10$QMslYCGsBCJSJrh/dzZq1uw4cp.uDAiSjSCmISZzRoVcXw0WQc06S"]]
+  [1m[36m (8.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-11@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Josh Borer"], ["email", "example-11@fakeemail.com"], ["password_digest", "$2a$10$qysoQ/reJ5vSI0zodP4pJ.r/aQ0rss7.THTVqxIM4gkrDRUeIMvFW"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:04.443907"], ["created_at", "2015-09-29 18:55:04.514409"], ["updated_at", "2015-09-29 18:55:04.514409"], ["activation_digest", "$2a$10$RD88/28TbfOh7B61MJnYluMNih2PKtCw3th1TT/bU0XIxGCVyTQj6"]]
+  [1m[36m (8.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-12@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Naomi Dare"], ["email", "example-12@fakeemail.com"], ["password_digest", "$2a$10$KPIsxEmQXHYzfSx.uMCvROdtBtJOzigniifoNJuymGzal6VotPx8C"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:04.667656"], ["created_at", "2015-09-29 18:55:04.746792"], ["updated_at", "2015-09-29 18:55:04.746792"], ["activation_digest", "$2a$10$swgUb.zddZnurcjgun6TE.RgIHmAsUTr5zJjGcjc32.p5r.zv2oBu"]]
+  [1m[36m (103.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-13@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Cheyanne Klein"], ["email", "example-13@fakeemail.com"], ["password_digest", "$2a$10$EBXovB1j3kOV3QJtRLXyfew1atshEYX7oEG5TLNlBbYWui9FPmYE."], ["activated", "t"], ["activated_at", "2015-09-29 18:55:05.000636"], ["created_at", "2015-09-29 18:55:05.071566"], ["updated_at", "2015-09-29 18:55:05.071566"], ["activation_digest", "$2a$10$IkmIzbuRPf9xft2687y.FuZ35DlL91/i5SPNxrEiWSbytHcRvc1dS"]]
+  [1m[36m (8.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-14@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Monte Zboncak"], ["email", "example-14@fakeemail.com"], ["password_digest", "$2a$10$.zxbw4X36TZIQsB4UWqTNuUq/VsGOl9PrqVEgWbZNmXRIJWrmue9u"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:05.216987"], ["created_at", "2015-09-29 18:55:05.286006"], ["updated_at", "2015-09-29 18:55:05.286006"], ["activation_digest", "$2a$10$C7eI2kuaTE7ukA6E.R7SrONUnEZ4o7NN/6hD6RsJp9xUNFwrToUl."]]
+  [1m[36m (6.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-15@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Stefanie Ullrich"], ["email", "example-15@fakeemail.com"], ["password_digest", "$2a$10$oo6vT9lYwXplU71HZ7g/wO9NaITV3aN9N./Rlu4UwT9suMAAPJWzi"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:05.432436"], ["created_at", "2015-09-29 18:55:05.503731"], ["updated_at", "2015-09-29 18:55:05.503731"], ["activation_digest", "$2a$10$3suRzxUWUuA9W36FQsOFWuhpfM6f9W7/bRvx1oaBgl8Jy3voXZAf2"]]
+  [1m[36m (8.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-16@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Ms. Daphne Crona"], ["email", "example-16@fakeemail.com"], ["password_digest", "$2a$10$Uc1i4IVNOl1cOk4I.hj4sepiqcuo2j5ZJxANuIfENq0Mc5vmmu8ca"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:05.649607"], ["created_at", "2015-09-29 18:55:05.720505"], ["updated_at", "2015-09-29 18:55:05.720505"], ["activation_digest", "$2a$10$zJ0d8.wDLFbsX2mwF0VBkeYTowdqAy3fdG3LyATNzyZTM00pOT0T2"]]
+  [1m[36m (8.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-17@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Cheyanne Haag"], ["email", "example-17@fakeemail.com"], ["password_digest", "$2a$10$McjjR.N0QG4.kxsUGrn5LexJi0.Ow6DGL8gV5UGvMJB2plVL8aCgm"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:05.871748"], ["created_at", "2015-09-29 18:55:05.942898"], ["updated_at", "2015-09-29 18:55:05.942898"], ["activation_digest", "$2a$10$9JI6GONxQxkJcSH0hfTSgeHwGWPuBVVXGBfI7.i30D5WA2LghYGIO"]]
+  [1m[36m (6.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-18@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Jordyn Volkman"], ["email", "example-18@fakeemail.com"], ["password_digest", "$2a$10$OzsinwbsEqgJeKCJmmwYV.68wHSeQa7575DjMV..GNLwc4sr6y7A."], ["activated", "t"], ["activated_at", "2015-09-29 18:55:06.089948"], ["created_at", "2015-09-29 18:55:06.161237"], ["updated_at", "2015-09-29 18:55:06.161237"], ["activation_digest", "$2a$10$Aty7PVivdESdILOrm4tM9.pxEucDFWRv/Ew35FiB/bsvqUXMqGky6"]]
+  [1m[36m (8.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-19@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Hubert Franecki"], ["email", "example-19@fakeemail.com"], ["password_digest", "$2a$10$Fb5dPazzae1/mZdyxukEq.RIy.lslXGyyFmAXTf4Io6BBf5Hftq66"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:06.313874"], ["created_at", "2015-09-29 18:55:06.387722"], ["updated_at", "2015-09-29 18:55:06.387722"], ["activation_digest", "$2a$10$CGU7w/tzMABWt298y9k0AOJVNT08HAKNH5cPgFpgqDSV0Jp2sTNJu"]]
+  [1m[36m (8.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-20@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Madaline Anderson"], ["email", "example-20@fakeemail.com"], ["password_digest", "$2a$10$Xf4WmhwHQXwQNUmLsxliquVNeDnJaWXJ3Uso/en.gqcY.aQFfWlva"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:06.540738"], ["created_at", "2015-09-29 18:55:06.613557"], ["updated_at", "2015-09-29 18:55:06.613557"], ["activation_digest", "$2a$10$xc3y0RQRBM9qdi5ErTc69eGId2JYF9/bwkOXRVVaGRY12.7BxMo4."]]
+  [1m[36m (8.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-21@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Dr. Marlene Stark"], ["email", "example-21@fakeemail.com"], ["password_digest", "$2a$10$uzee5Ij01ULEEBN2LrXJP.H6UnlI7ejj9IzDTIM2ouQKN0jLkiYt."], ["activated", "t"], ["activated_at", "2015-09-29 18:55:06.759504"], ["created_at", "2015-09-29 18:55:06.829828"], ["updated_at", "2015-09-29 18:55:06.829828"], ["activation_digest", "$2a$10$zTpQArG5c7H1wEf9nOwnRejjMCexF4OTS/cQrrOocVSI8J7DtjTdC"]]
+  [1m[36m (6.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-22@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Garnet Emmerich DVM"], ["email", "example-22@fakeemail.com"], ["password_digest", "$2a$10$vzABWZkVlI.M87meWW6qyOBXiJErnVpGaV93U5LxzE7cXRiyv3MLi"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:06.972805"], ["created_at", "2015-09-29 18:55:07.042254"], ["updated_at", "2015-09-29 18:55:07.042254"], ["activation_digest", "$2a$10$bzZSfnwqlLP/IWzlfKHv2.jhzyuTCSh9GaHUIhTnWAyu6PX5IAY96"]]
+  [1m[36m (7.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-23@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Ms. Loyce Lockman"], ["email", "example-23@fakeemail.com"], ["password_digest", "$2a$10$SnRrLQnneYP9XtEV5CgBReXmmdQmksYzflww0akAEr5OtM8rUb2Km"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:07.188101"], ["created_at", "2015-09-29 18:55:07.261801"], ["updated_at", "2015-09-29 18:55:07.261801"], ["activation_digest", "$2a$10$V5rrAgKc489kVeSWtjH0oOajWRa6puEuCVoSJMpX6k6R2EbC914Xi"]]
+  [1m[36m (6.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-24@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Mr. Angie Lubowitz"], ["email", "example-24@fakeemail.com"], ["password_digest", "$2a$10$7nHZNIF.TFFGnCg.hcm00OyvkCU.4vXS8NosAK8dUDrjgB2Y2P8yi"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:07.408166"], ["created_at", "2015-09-29 18:55:07.480509"], ["updated_at", "2015-09-29 18:55:07.480509"], ["activation_digest", "$2a$10$hIpCvjxwYHxxw/DDucbW9e5Ehn3Fq7ILWOKrnCcVdRsHYGRAAjOy."]]
+  [1m[36m (8.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-25@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Nichole Luettgen Jr."], ["email", "example-25@fakeemail.com"], ["password_digest", "$2a$10$eOG2WXei1D7jVgC5vU/vEuRWtmGQLylVBIsps8b4GtQAqXnGzypou"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:07.632960"], ["created_at", "2015-09-29 18:55:07.709405"], ["updated_at", "2015-09-29 18:55:07.709405"], ["activation_digest", "$2a$10$pmCZpD9OgwMaw6DX6trbRe5i..vf6buSYVWa9Uw9d.BdjeQvLqkR6"]]
+  [1m[36m (8.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-26@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Dr. Scottie Hoeger"], ["email", "example-26@fakeemail.com"], ["password_digest", "$2a$10$MjXn0S5uZB4.FMUdISHGVOf8QsvUiQMWdVXdyWfMmY0doJwkpSMS6"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:07.875253"], ["created_at", "2015-09-29 18:55:07.953190"], ["updated_at", "2015-09-29 18:55:07.953190"], ["activation_digest", "$2a$10$HwsvyAP6NZxLlGjpKDVWee.3tD7I1TfMuLF0ythcjRILySoIhjzlm"]]
+  [1m[36m (7.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-27@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Neva Weber"], ["email", "example-27@fakeemail.com"], ["password_digest", "$2a$10$tg1OmYP/0thuwp5rX7mEkOaJchGyo/VHEUWq5oov5DG0wkAq3mcdG"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:08.113950"], ["created_at", "2015-09-29 18:55:08.192319"], ["updated_at", "2015-09-29 18:55:08.192319"], ["activation_digest", "$2a$10$tC2gPWt2fNl4mo9kHMJf3OaeCgZiO36tPrPvL7n3K9Yw4QspgyAn6"]]
+  [1m[36m (7.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-28@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Alec Smitham"], ["email", "example-28@fakeemail.com"], ["password_digest", "$2a$10$BC5Y1AcEUJ18uU66SLB5KeliOHS7b0UXT83JU3X29CtIahhz9oiPy"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:08.353723"], ["created_at", "2015-09-29 18:55:08.433583"], ["updated_at", "2015-09-29 18:55:08.433583"], ["activation_digest", "$2a$10$w.8Hr2u9QszxvREzjLfZteQrQR3U/qX//zYjdCRK6vmlyA1y5ahle"]]
+  [1m[36m (8.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-29@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Ruth Torp"], ["email", "example-29@fakeemail.com"], ["password_digest", "$2a$10$m5gkxS5Ie9wjVJsTXnbwAeoB4/dQk7GX0QTztNy9PKqhRvIJPYWNK"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:08.599658"], ["created_at", "2015-09-29 18:55:08.678471"], ["updated_at", "2015-09-29 18:55:08.678471"], ["activation_digest", "$2a$10$Jjl1bOJjYr4tFSdJ7OFryOvGAZL8Lcu1vO1qtBX6X0kc91dKKOFsO"]]
+  [1m[36m (6.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-30@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Cleveland Dooley"], ["email", "example-30@fakeemail.com"], ["password_digest", "$2a$10$wH7ayfUD1N448mt3xr3T1Ozr3yS5qf4qEmY4XhctRvyH5g.KEbpSC"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:08.843724"], ["created_at", "2015-09-29 18:55:08.925420"], ["updated_at", "2015-09-29 18:55:08.925420"], ["activation_digest", "$2a$10$CnQF2uMsnfQu2ZVFYwcN7eOr/AbfoBBjfBhWbjammixRzwRtojGjG"]]
+  [1m[36m (6.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-31@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Cooper Jacobi"], ["email", "example-31@fakeemail.com"], ["password_digest", "$2a$10$Mt1l64M13p4PO5UA4XvgpeRauTi4VjA3QXnb3j8YR921J9VBXeE96"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:09.084655"], ["created_at", "2015-09-29 18:55:09.162975"], ["updated_at", "2015-09-29 18:55:09.162975"], ["activation_digest", "$2a$10$xlapwQiihF0jY8rL8VA9wemdlmfhplK38fPwQyy6x7ww6OkHK5MDy"]]
+  [1m[36m (8.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-32@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Magdalen McClure"], ["email", "example-32@fakeemail.com"], ["password_digest", "$2a$10$aFh1gp7OQ3o8lcKEfHj7DeP9S1DuzL./l6H5pJDA6x4lr.gcNNdPW"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:09.324770"], ["created_at", "2015-09-29 18:55:09.401672"], ["updated_at", "2015-09-29 18:55:09.401672"], ["activation_digest", "$2a$10$9aeXJnOgZn2Nu7v4VgtGrOo1clUXKTSvKxqq.89sEnLDIHCf59lpC"]]
+  [1m[36m (8.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-33@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Mr. Delta Zboncak"], ["email", "example-33@fakeemail.com"], ["password_digest", "$2a$10$jdOUeEVvNFELRhOcng7qkuk5ujT0YUwQe58G49rh9MHSplTGjmkNu"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:09.564034"], ["created_at", "2015-09-29 18:55:09.639698"], ["updated_at", "2015-09-29 18:55:09.639698"], ["activation_digest", "$2a$10$.kOC4N9vEiGNZmNk5D6Ot.MlvuFOqRn1PUBz1ZujVX4/ZqiV6K1bq"]]
+  [1m[36m (7.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-34@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Odessa Mayer"], ["email", "example-34@fakeemail.com"], ["password_digest", "$2a$10$xpUZ2zVVVTpf5yAt7YfrBepUYB1zbALeNMIfXfVkNtwldTn1F5NqO"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:09.792726"], ["created_at", "2015-09-29 18:55:09.870162"], ["updated_at", "2015-09-29 18:55:09.870162"], ["activation_digest", "$2a$10$KUjxS1cA3oiexH/N3Gh98.GqmTrjnbDx40hOUGOldWbJYTvUUzkHC"]]
+  [1m[36m (8.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-35@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Elias Hermiston"], ["email", "example-35@fakeemail.com"], ["password_digest", "$2a$10$JTYV4sPowut26qLGrdSss.G/cI9nDcHPnS4z96/Jcp4hWA2L7UU5i"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:10.036182"], ["created_at", "2015-09-29 18:55:10.113881"], ["updated_at", "2015-09-29 18:55:10.113881"], ["activation_digest", "$2a$10$s4AmT/kHT7CtsVXIigcYEewKXeDFybgqzNekENrItwZIUsh1TG5EG"]]
+  [1m[36m (8.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-36@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Gardner Lockman DVM"], ["email", "example-36@fakeemail.com"], ["password_digest", "$2a$10$EkDfgibvg011nd3tgHiyRuvkUqlp6jMfsPDv3FrQQw54sGdlY70FC"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:10.275565"], ["created_at", "2015-09-29 18:55:10.353503"], ["updated_at", "2015-09-29 18:55:10.353503"], ["activation_digest", "$2a$10$NFkcz8nX3bU3QWzcgmIqZO1eI36GgtN.qVqgRDjkPU9D9bakp6TL2"]]
+  [1m[36m (11.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-37@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Miss Effie Thiel"], ["email", "example-37@fakeemail.com"], ["password_digest", "$2a$10$tsoqzN5K30mCVLtVMt/gyetFAmVkPmXSSnpPJnu2iq/.XWgAE/k0q"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:10.520741"], ["created_at", "2015-09-29 18:55:10.598790"], ["updated_at", "2015-09-29 18:55:10.598790"], ["activation_digest", "$2a$10$q1Lye7YHZIo4UxKmlJS52utqkBb7oaA8fI3jG5C33cgFaqiL3BQ/m"]]
+  [1m[36m (8.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-38@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Micheal Grimes"], ["email", "example-38@fakeemail.com"], ["password_digest", "$2a$10$jjciMM69XRRCOF2PgxgDoOI4eC6s6mxrvG.iuRevIpd1vntKatVf2"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:10.761850"], ["created_at", "2015-09-29 18:55:10.839853"], ["updated_at", "2015-09-29 18:55:10.839853"], ["activation_digest", "$2a$10$ZbOrr1IozPckasnHMBt43OOOdIsWfgHrRpuHgqsGEozXfJ/alzEZe"]]
+  [1m[36m (8.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-39@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Nash Prohaska"], ["email", "example-39@fakeemail.com"], ["password_digest", "$2a$10$XAvry7vyuUGQl5b2lNatQen2dcGylA8FammAR7qmzqCjZ1eHj27ty"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:11.003528"], ["created_at", "2015-09-29 18:55:11.081332"], ["updated_at", "2015-09-29 18:55:11.081332"], ["activation_digest", "$2a$10$PVOVVu/HR/LrysO2yp3iBucEc6KIhWNgCD963BlvXuIC4LrmfyUfW"]]
+  [1m[36m (8.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-40@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Benton Harvey"], ["email", "example-40@fakeemail.com"], ["password_digest", "$2a$10$wgJnU5ZUgcySJgVymdzCsOSLbaepGpc2qZkid/L6sFUffMWiaI.Oq"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:11.243758"], ["created_at", "2015-09-29 18:55:11.322154"], ["updated_at", "2015-09-29 18:55:11.322154"], ["activation_digest", "$2a$10$mdn.0c/oR2RVbA1iOxhi6OfCm4FJNiCPorkiRPvdjqYTWOP/iapO2"]]
+  [1m[36m (8.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-41@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Tessie Ritchie"], ["email", "example-41@fakeemail.com"], ["password_digest", "$2a$10$BMF37mrGRyZghAX.v2mtq.rxS6Jqi5eE13APSpgM6eim/brXemAa2"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:11.483848"], ["created_at", "2015-09-29 18:55:11.561930"], ["updated_at", "2015-09-29 18:55:11.561930"], ["activation_digest", "$2a$10$sEQiv28Cu9eoguSTAGBk1us5hKw.nfI4ORGQ5yRs5hUbrIUtZDOOO"]]
+  [1m[36m (8.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-42@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Fabiola Mertz"], ["email", "example-42@fakeemail.com"], ["password_digest", "$2a$10$vj8TYsF.7xNV1D3EJQ4LKuj2NxzZArfXYaStthTXTRc8QWMRQb4ba"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:11.725338"], ["created_at", "2015-09-29 18:55:11.803463"], ["updated_at", "2015-09-29 18:55:11.803463"], ["activation_digest", "$2a$10$yo4MmggGaHj4Q00K70FFCOeqQIzt0vsndLcKE25lRjpB09p1xSrqO"]]
+  [1m[36m (8.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-43@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Mason Ferry"], ["email", "example-43@fakeemail.com"], ["password_digest", "$2a$10$oO5UZBJsWpslnk3Yhc124eStaQYMf9h7trvDDG0WuRSuksRTDGXkK"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:11.964045"], ["created_at", "2015-09-29 18:55:12.041757"], ["updated_at", "2015-09-29 18:55:12.041757"], ["activation_digest", "$2a$10$F2fEsZsn0UZrpK2u.e6J3elhWVgYDT5TSWYM353RIA0ZzGALUK4Om"]]
+  [1m[36m (7.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-44@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Obie Howell"], ["email", "example-44@fakeemail.com"], ["password_digest", "$2a$10$u24xYPqZYyIz9BIiVszLme80U.gCgkwt/h.6Fyu29Dx/b2rpXNYS6"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:12.203478"], ["created_at", "2015-09-29 18:55:12.283449"], ["updated_at", "2015-09-29 18:55:12.283449"], ["activation_digest", "$2a$10$8L44gJtS3WjTUdoj92cf.uZHE5KZ8hdXNAdsdttfMzQt8fycQ13dW"]]
+  [1m[36m (8.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-45@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Braeden Vandervort"], ["email", "example-45@fakeemail.com"], ["password_digest", "$2a$10$26qw91xR11v3CNzQ7s4RK.DWfgF7Cj/23mkG9HN23eTpX675479j6"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:12.448538"], ["created_at", "2015-09-29 18:55:12.529905"], ["updated_at", "2015-09-29 18:55:12.529905"], ["activation_digest", "$2a$10$2FDxkPlFgfe4XxuIu0Eb5.Veht2viJautK3xqJ6iNhI9uOynANCAC"]]
+  [1m[36m (8.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-46@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Darren Lesch"], ["email", "example-46@fakeemail.com"], ["password_digest", "$2a$10$jMsd6yPKnFAg.luERyxhjOvc9kufI9qGFVnCtXDJZCKOg71GoaAce"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:12.693161"], ["created_at", "2015-09-29 18:55:12.773651"], ["updated_at", "2015-09-29 18:55:12.773651"], ["activation_digest", "$2a$10$Ea8V1EVXVdStA4Bb294Bw.G5olsVrRSOevFuQLmKoua2AB7Hur8bi"]]
+  [1m[36m (7.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-47@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Green Prosacco"], ["email", "example-47@fakeemail.com"], ["password_digest", "$2a$10$For1d6duFmxmA0YzVaLFBeL0trExGQP3U0Xben4x.2IYuVFIa/gdm"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:12.937521"], ["created_at", "2015-09-29 18:55:13.015439"], ["updated_at", "2015-09-29 18:55:13.015439"], ["activation_digest", "$2a$10$mb7Ban7.urD6b6G8ITJGaOeWGn9Bsz55n2A7AMyNaxkvxeGAkNjIG"]]
+  [1m[36m (7.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-48@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Mr. Daron Carter"], ["email", "example-48@fakeemail.com"], ["password_digest", "$2a$10$WToAMOUiern0C0jBzA9Kmu9RHrOM29rZXbK5BG50ff118adZyXyeC"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:13.176229"], ["created_at", "2015-09-29 18:55:13.255343"], ["updated_at", "2015-09-29 18:55:13.255343"], ["activation_digest", "$2a$10$d6wNQ7KOUC6svoVBbhTOZuGMYVSSCAfXrDXfOrsRkvMblon6Kfot."]]
+  [1m[36m (9.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-49@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Mr. Liliana Lynch"], ["email", "example-49@fakeemail.com"], ["password_digest", "$2a$10$.lMWcbkHxrRaRz9X8x8Dx.Q3E/iHtl1JHNMcNmI/IBKCX4ZPc.clm"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:13.420004"], ["created_at", "2015-09-29 18:55:13.498005"], ["updated_at", "2015-09-29 18:55:13.498005"], ["activation_digest", "$2a$10$u6I07JzyB0W7rfmcdcYmGuYxZjnRx64ohh7kFJiDBbwYBUStoCT0."]]
+  [1m[36m (8.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-50@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Keon Rutherford"], ["email", "example-50@fakeemail.com"], ["password_digest", "$2a$10$ebxmUnfAnx0axoFvO/Jr9uR/Wl/1x68v0cCDknEa5kqwDO.bJ55ry"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:13.661444"], ["created_at", "2015-09-29 18:55:13.741683"], ["updated_at", "2015-09-29 18:55:13.741683"], ["activation_digest", "$2a$10$hw5GieN7C7Ak7Hc0swWQbuFbFaOF1O1d30sP8a5Ryt6WhLJmQngWe"]]
+  [1m[36m (8.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-51@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Tyler Wilderman III"], ["email", "example-51@fakeemail.com"], ["password_digest", "$2a$10$4V9NcafsXGHBWc09tVGuaeARnEs9/v9AdgCFEWaxuHRLDb0rTmnQe"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:13.909154"], ["created_at", "2015-09-29 18:55:13.989436"], ["updated_at", "2015-09-29 18:55:13.989436"], ["activation_digest", "$2a$10$RefNbEGzqI8zPSITKSlLRemreeoADjj1r9nfceaKkItWilLWNkZRC"]]
+  [1m[36m (10.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-52@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Ms. Raymundo Hickle"], ["email", "example-52@fakeemail.com"], ["password_digest", "$2a$10$tRBujm0zXka/K7mxsUSNo.fnqtfp59s4C9sfFYblpNTCt28fkhrh2"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:14.153829"], ["created_at", "2015-09-29 18:55:14.232743"], ["updated_at", "2015-09-29 18:55:14.232743"], ["activation_digest", "$2a$10$otMnpi/dLvwJYqSvXc9Z6.Vji8igpMUyIRtiKVshsoTpDGmDI.2nG"]]
+  [1m[36m (8.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-53@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Lucius Ullrich"], ["email", "example-53@fakeemail.com"], ["password_digest", "$2a$10$ypdBwkQiYAaIHnA8oUn72OGHm22DAISc9LblAQXJ5tAinD9ysAya."], ["activated", "t"], ["activated_at", "2015-09-29 18:55:14.396807"], ["created_at", "2015-09-29 18:55:14.475327"], ["updated_at", "2015-09-29 18:55:14.475327"], ["activation_digest", "$2a$10$5Bz9GHg3GoQanuth2sBOmu1eDAM.A6GUzQXi6SKr58e60fwCeqtDa"]]
+  [1m[36m (6.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-54@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Dr. Omari Abernathy"], ["email", "example-54@fakeemail.com"], ["password_digest", "$2a$10$ZmDiiW9aPPrbKNU9g3EL6uApHmiNdcVg0GNjalZaFOyzeoObICu/y"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:14.637743"], ["created_at", "2015-09-29 18:55:14.716058"], ["updated_at", "2015-09-29 18:55:14.716058"], ["activation_digest", "$2a$10$yopdavyIF/7NaKk5ylf54eDFPMfGcZgUrfhGW6A8nqShxJLtvDsJ6"]]
+  [1m[36m (7.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-55@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Jamel Brown Jr."], ["email", "example-55@fakeemail.com"], ["password_digest", "$2a$10$aDfwwhnIdHatnQX1/6/K1eRKmw9Osgxr9hvQmLc.9B9Jx/k38bRHm"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:14.876628"], ["created_at", "2015-09-29 18:55:14.955952"], ["updated_at", "2015-09-29 18:55:14.955952"], ["activation_digest", "$2a$10$mrVlO/uL1T4.J3D99rykdeSw0Uvq/RqzwaoaiMkrapAaDLgPDBmSS"]]
+  [1m[36m (8.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-56@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Gail Schaden"], ["email", "example-56@fakeemail.com"], ["password_digest", "$2a$10$0SLOX.erkpq80n.3J2EArO1S3lmsRKMhr56E7mqzaHenxOs8GoyQ."], ["activated", "t"], ["activated_at", "2015-09-29 18:55:15.119918"], ["created_at", "2015-09-29 18:55:15.199174"], ["updated_at", "2015-09-29 18:55:15.199174"], ["activation_digest", "$2a$10$lAX5XtmT2AKDNvtoFZsB2.U7SyI76qnKnK.gi/v2K3Ua2UcHPO4x2"]]
+  [1m[36m (6.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-57@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Mrs. Kaelyn Kling"], ["email", "example-57@fakeemail.com"], ["password_digest", "$2a$10$dZnm9P4ZZG/tpbl6cq35wecJQVlWXtRVwsRbQaiGITcEqBWwOCBOu"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:15.361602"], ["created_at", "2015-09-29 18:55:15.439576"], ["updated_at", "2015-09-29 18:55:15.439576"], ["activation_digest", "$2a$10$SBlaR/GUxwZlYSykX230d.863rKOK9PIamXmNo6WEJ2kpf.PEHmz6"]]
+  [1m[36m (7.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-58@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Audie Metz"], ["email", "example-58@fakeemail.com"], ["password_digest", "$2a$10$7reYvzOvGseVIH7YNKt0M.Qqz/fALJ10fOkBirh.R4/Rn5d855smK"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:15.604563"], ["created_at", "2015-09-29 18:55:15.683936"], ["updated_at", "2015-09-29 18:55:15.683936"], ["activation_digest", "$2a$10$4dXzTelMq0kugeSUd3RkG.hfQylhL6gocbFzrlwMavMB5.DfWbtWi"]]
+  [1m[36m (6.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-59@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Marjory Collier"], ["email", "example-59@fakeemail.com"], ["password_digest", "$2a$10$rokEdwrxfVgUD4akF/0KDu2rvZqYWPndVFW65.LhQuT9KmbzfhWNm"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:15.848837"], ["created_at", "2015-09-29 18:55:15.929627"], ["updated_at", "2015-09-29 18:55:15.929627"], ["activation_digest", "$2a$10$7uj71Ri894dvtLQ6pocIbeV4jj41dsePr5.PAgQYrh014fc6OK3l."]]
+  [1m[36m (7.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-60@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Lauryn Denesik"], ["email", "example-60@fakeemail.com"], ["password_digest", "$2a$10$uyAudsl741.1OazJObL3E.LYLnQALvfe.nSs.1jseDqb9YCx6UunS"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:16.094247"], ["created_at", "2015-09-29 18:55:16.173513"], ["updated_at", "2015-09-29 18:55:16.173513"], ["activation_digest", "$2a$10$vRrdnFnCDM8SjYZ4QogKx.zYUmGTQN8MuXb0ufJ1TAWP9Npq.Unra"]]
+  [1m[36m (23.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-61@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Amira Baumbach"], ["email", "example-61@fakeemail.com"], ["password_digest", "$2a$10$JGR2H4sWg2T.sKW8BEeB9e0SmoAV6UXm3nhcNSvQk/87/.yF2f8Ce"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:16.353340"], ["created_at", "2015-09-29 18:55:16.432859"], ["updated_at", "2015-09-29 18:55:16.432859"], ["activation_digest", "$2a$10$n8nM9/ypsENfNoNFU6mWEuWtXBGB1ACacuVSE5t0jZA7M6aJIxBPG"]]
+  [1m[36m (6.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-62@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Reyes Kiehn"], ["email", "example-62@fakeemail.com"], ["password_digest", "$2a$10$DVnP3pn9ybNg0S2O/fPc4./joYXbMyCyH7QiGW36qDeHvfRPz0nFa"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:16.593664"], ["created_at", "2015-09-29 18:55:16.672597"], ["updated_at", "2015-09-29 18:55:16.672597"], ["activation_digest", "$2a$10$enMSGUkYyhhzop8ai5teOuDoAqMUGa5LlknrPVY5U36ZRdn98A75O"]]
+  [1m[36m (6.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-63@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Wilfrid Kiehn"], ["email", "example-63@fakeemail.com"], ["password_digest", "$2a$10$R0r6gScJ4vmcjgD/Oet/MOR1f/Ih4/PnQWkLD3Vai8rPb.larS1ai"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:16.836149"], ["created_at", "2015-09-29 18:55:16.915593"], ["updated_at", "2015-09-29 18:55:16.915593"], ["activation_digest", "$2a$10$5oHvphJHHKcgjmNSxIuN1.xvWNHdvE80IUIy1TjF214zMVqr8lsBW"]]
+  [1m[36m (6.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-64@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Hassan Wyman"], ["email", "example-64@fakeemail.com"], ["password_digest", "$2a$10$U6xzxZbwezi3Hc6FPKFn1eSflfV74gf65uA78GoWKgbS83KrCTMq."], ["activated", "t"], ["activated_at", "2015-09-29 18:55:17.077713"], ["created_at", "2015-09-29 18:55:17.157423"], ["updated_at", "2015-09-29 18:55:17.157423"], ["activation_digest", "$2a$10$WNtsjGY/n2G5FuJfTSUqx.4E.bbj6LDb4nVc1ymtyRlYrKiSd.y1S"]]
+  [1m[36m (6.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-65@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Sherman Fadel"], ["email", "example-65@fakeemail.com"], ["password_digest", "$2a$10$8.yQMx1v3m3bC2ccY/H3PuJvqvgkPPZIk4DZ0Y9ynTUR2QhsVhNJ6"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:17.319901"], ["created_at", "2015-09-29 18:55:17.401322"], ["updated_at", "2015-09-29 18:55:17.401322"], ["activation_digest", "$2a$10$Tujj8dCpkJm4ru7g9TsgpefPuGr8qymH4HtBooA9oouLzcf/1D5Vq"]]
+  [1m[36m (8.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-66@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Howell Balistreri"], ["email", "example-66@fakeemail.com"], ["password_digest", "$2a$10$XxWWlCTJcNvhBwGo9Fo27.dDFEirHzDU6P81XZ6Xm7XfngHUTlvBS"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:17.571854"], ["created_at", "2015-09-29 18:55:17.651951"], ["updated_at", "2015-09-29 18:55:17.651951"], ["activation_digest", "$2a$10$Aoxq89mUO3NjIZHAnI/LEui0FRZdKdTOo4fOnsM8mLgQqDafdAUuG"]]
+  [1m[36m (8.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-67@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Grayce O'Connell"], ["email", "example-67@fakeemail.com"], ["password_digest", "$2a$10$5ClCe9jovYL5PKEjo/k5v.nlslBgFNrUaQr3s9aZaZJtciDSE9iLa"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:17.817520"], ["created_at", "2015-09-29 18:55:17.896766"], ["updated_at", "2015-09-29 18:55:17.896766"], ["activation_digest", "$2a$10$y83wy9EJWxdrIQSOo7xyXOuE9SOPuN4wGzU09Nr.BeAKntdgz4Xdu"]]
+  [1m[36m (7.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-68@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Pedro Hauck"], ["email", "example-68@fakeemail.com"], ["password_digest", "$2a$10$2FaD/lUnistJJ5UGS.rqce7SW4YNmbQg6Ld7sKEYsRDmRQJL4QN.e"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:18.059617"], ["created_at", "2015-09-29 18:55:18.138262"], ["updated_at", "2015-09-29 18:55:18.138262"], ["activation_digest", "$2a$10$61s3B8iCnjw9lYu8nUXMf.C/5CzOmH1.xoDUSepE1elpUqh4RdvaK"]]
+  [1m[36m (7.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-69@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Dillan Walsh"], ["email", "example-69@fakeemail.com"], ["password_digest", "$2a$10$Rm4KyQ4C/819H53K2lhlMe3HR1e7JvEfjreB/Figm4SR8PmwZAQ/q"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:18.300376"], ["created_at", "2015-09-29 18:55:18.379291"], ["updated_at", "2015-09-29 18:55:18.379291"], ["activation_digest", "$2a$10$4ZcWCf64rE17H/SEbPF69u/Kr5R0KPrsm4O1xwVwHP.y289Q/kAVi"]]
+  [1m[36m (10.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-70@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Valentin Jones"], ["email", "example-70@fakeemail.com"], ["password_digest", "$2a$10$SJNTboHXo2CkYy63cu7wt.aJtg9iLOd/Dz0HWaiwkoZsQbC8uDrxS"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:18.541552"], ["created_at", "2015-09-29 18:55:18.618306"], ["updated_at", "2015-09-29 18:55:18.618306"], ["activation_digest", "$2a$10$svyox40lXaQuqcEVUh9kMe4rfrEaD0HjFEG8//b78C7L76mDkMT9u"]]
+  [1m[36m (9.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-71@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Susan Kutch"], ["email", "example-71@fakeemail.com"], ["password_digest", "$2a$10$6PKLnoIX1h2chylAGSFvCeORcmvLF4TVfVfH07XzuZh7QxFRzH6hi"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:18.772353"], ["created_at", "2015-09-29 18:55:18.851389"], ["updated_at", "2015-09-29 18:55:18.851389"], ["activation_digest", "$2a$10$MYwuGth2MOMppgvlTJUFIuChvFHqwn3NqO6sacG2ay87Ieo5lu5h6"]]
+  [1m[36m (8.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-72@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Ivy Cassin"], ["email", "example-72@fakeemail.com"], ["password_digest", "$2a$10$/8s6vZOo8NWFdV.wX3KDa.pTZreDDePWalalvY1KANlhrbP5uT.iK"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:19.015731"], ["created_at", "2015-09-29 18:55:19.094955"], ["updated_at", "2015-09-29 18:55:19.094955"], ["activation_digest", "$2a$10$FLrE/Ic71xIgpoKkv6Z5JeUd7pKL9T4Bk4qZmfN12DLHUJ0I79U6S"]]
+  [1m[36m (7.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-73@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Edwardo Auer"], ["email", "example-73@fakeemail.com"], ["password_digest", "$2a$10$FGKVyb1qXL5VY5k/XqonKeVjSdS2F1D7ipRiYjFW5mz982plCNSHG"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:19.257463"], ["created_at", "2015-09-29 18:55:19.335191"], ["updated_at", "2015-09-29 18:55:19.335191"], ["activation_digest", "$2a$10$MzpReRlVuK1n2VV9E1cYn.RK5fTOpvdiYAi4mK5oQ/F.FXdBVHh3."]]
+  [1m[36m (9.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-74@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Edwardo Jacobi"], ["email", "example-74@fakeemail.com"], ["password_digest", "$2a$10$OCYY45eBE/6KPJZ9XSMuj.d2QWdiWIinvmBDWtDUaxvnkNB0QQfx6"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:19.500417"], ["created_at", "2015-09-29 18:55:19.580217"], ["updated_at", "2015-09-29 18:55:19.580217"], ["activation_digest", "$2a$10$oovngTetC4ZQ7MJvzVuIdeChFGbe1RK.TX.phSsHkmXozwvSFkmVu"]]
+  [1m[36m (7.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-75@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Lindsey Hahn"], ["email", "example-75@fakeemail.com"], ["password_digest", "$2a$10$iCe36YmMfU01iq3DMD8fbemC6KC14A47WfE8dpfTtEcjQhjjyBIUC"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:19.744609"], ["created_at", "2015-09-29 18:55:19.823744"], ["updated_at", "2015-09-29 18:55:19.823744"], ["activation_digest", "$2a$10$QvnOUsUw/Xh8wGF7FOzZUOXJDKgMFVIkK1ConBvd6avDGv/pdST0S"]]
+  [1m[36m (8.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-76@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Randi Ebert Sr."], ["email", "example-76@fakeemail.com"], ["password_digest", "$2a$10$xuJtisH023cwoswuXY8w5.cNlWdCBggX49NF6wSoi8oUDdNVsY0P."], ["activated", "t"], ["activated_at", "2015-09-29 18:55:19.989541"], ["created_at", "2015-09-29 18:55:20.068332"], ["updated_at", "2015-09-29 18:55:20.068332"], ["activation_digest", "$2a$10$Xj3m3UbtcPHnxm1SBWVMNe52heXE0zoZ/fr1azQwO98bWuPvKHyVe"]]
+  [1m[36m (6.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-77@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Braeden Wunsch"], ["email", "example-77@fakeemail.com"], ["password_digest", "$2a$10$LkhaMiUJlp3OXT8RbQnfQOpRNB9wlawu/dbfNpBDbpojfbrUpM5OO"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:20.228699"], ["created_at", "2015-09-29 18:55:20.307690"], ["updated_at", "2015-09-29 18:55:20.307690"], ["activation_digest", "$2a$10$bNuRhJK3M5fhrE2TyPon7.qSutfmRE7OsC/JdA44FVAPGm61MATeW"]]
+  [1m[36m (9.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-78@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Leif Swift MD"], ["email", "example-78@fakeemail.com"], ["password_digest", "$2a$10$4iE/mBXT6z.OTA/f6xOGaO2heIbcFXxr54Gva/5emDRzzSS4n3oqa"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:20.472002"], ["created_at", "2015-09-29 18:55:20.550115"], ["updated_at", "2015-09-29 18:55:20.550115"], ["activation_digest", "$2a$10$Nffk3jQiZhEE9PXomomF8.HSul73NA6RB93/VsAdQnnwf1BGmXk5y"]]
+  [1m[36m (8.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-79@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Mrs. Austin Reichel"], ["email", "example-79@fakeemail.com"], ["password_digest", "$2a$10$KGOAihDxOAMLByApqiJgaOYJTIEd5t1xdEtQ.3mwkKiki62kSTi9W"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:20.714306"], ["created_at", "2015-09-29 18:55:20.792642"], ["updated_at", "2015-09-29 18:55:20.792642"], ["activation_digest", "$2a$10$Ln0lVV.25Jxcdryuc7YGjuHiUoSeI2pTAMFh8eb0u.NtMbhgPbHbq"]]
+  [1m[36m (10.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-80@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Chyna Murazik DVM"], ["email", "example-80@fakeemail.com"], ["password_digest", "$2a$10$kB0V31jafK7Rjhtw.nshT.yXoEc..4bLYj8hXXaYFzSw//2GmVnUG"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:20.960194"], ["created_at", "2015-09-29 18:55:21.038431"], ["updated_at", "2015-09-29 18:55:21.038431"], ["activation_digest", "$2a$10$YjyDi23WQfcyp3n7PpQA7O2TF3taMKMTrVEHkTmcVEULpdfni3YvK"]]
+  [1m[36m (8.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-81@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Mortimer McLaughlin I"], ["email", "example-81@fakeemail.com"], ["password_digest", "$2a$10$3XTXVGizH294IyfaQ4NZ1O/4zUA1x6IxiyzdZVSLkSKxHukecxvsC"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:21.201989"], ["created_at", "2015-09-29 18:55:21.282145"], ["updated_at", "2015-09-29 18:55:21.282145"], ["activation_digest", "$2a$10$Jq9L2glvcuWYaRPNIpEdIukjhK.enR9s3qPJlKUw09o4rEWyjlSTW"]]
+  [1m[36m (11.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-82@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Cornell Monahan"], ["email", "example-82@fakeemail.com"], ["password_digest", "$2a$10$xVlGqIA6nk1A8vx1cxwOY.GMxxNF9ruK1.TNw9Iw.Y7wxosjXmNqW"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:21.448355"], ["created_at", "2015-09-29 18:55:21.528344"], ["updated_at", "2015-09-29 18:55:21.528344"], ["activation_digest", "$2a$10$Pw0J48MYIEo8yhQD7qiY2uBFnkef4JxCDszjLAPs054OTZMWaboRm"]]
+  [1m[36m (9.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-83@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Timmy Halvorson"], ["email", "example-83@fakeemail.com"], ["password_digest", "$2a$10$CGvvtJ49gLdR3qTcFln.uOWWPpR20DYXxI8MRYD6w20MAz7Hc7KbK"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:21.677321"], ["created_at", "2015-09-29 18:55:21.748040"], ["updated_at", "2015-09-29 18:55:21.748040"], ["activation_digest", "$2a$10$w/AlKpIrcRN7px7fmXSnlOlCcR9.XUlc1C8Kht6bRGRqaF4BafSWa"]]
+  [1m[36m (8.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-84@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Miller Wyman"], ["email", "example-84@fakeemail.com"], ["password_digest", "$2a$10$m9.8sYC.gfiNei4diWN88eQzvoq.R7TfFGyXwdo43H.SEl3SdulXu"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:21.892530"], ["created_at", "2015-09-29 18:55:21.961054"], ["updated_at", "2015-09-29 18:55:21.961054"], ["activation_digest", "$2a$10$.0AaQyDSx30zQHlss25Uv.bb8qARHhW3mN/WAETOqiJoBCIg4ked."]]
+  [1m[36m (9.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-85@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Haylee Walter"], ["email", "example-85@fakeemail.com"], ["password_digest", "$2a$10$Ni0FI30vHpyE6McKCMigs.v7fbq.evbz0BgelmLqxfyld5/FqO58y"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:22.103276"], ["created_at", "2015-09-29 18:55:22.171437"], ["updated_at", "2015-09-29 18:55:22.171437"], ["activation_digest", "$2a$10$JRfVp0UQ/LciUKAec1Mi2uFe3bZU8C3wm13kYKbWzLfEVeIDQdEHC"]]
+  [1m[36m (6.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-86@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Quinten Johnson"], ["email", "example-86@fakeemail.com"], ["password_digest", "$2a$10$Q8utSrOX2fGG0eiDzWSpie192rmybpqcPoOOOm2Y07AR1oghROP16"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:22.316813"], ["created_at", "2015-09-29 18:55:22.388192"], ["updated_at", "2015-09-29 18:55:22.388192"], ["activation_digest", "$2a$10$NBYO4aZQ79b2Mhny3MnzfusLVdbdlXc7CbW9z32TAxoMnIYZB6Tr2"]]
+  [1m[36m (9.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-87@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Dr. Daryl Cassin"], ["email", "example-87@fakeemail.com"], ["password_digest", "$2a$10$DbegBYNRArTFRdkHcikXC.wDyDdDfpx34eB0jvGLgu2Joh1/9VOGy"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:22.536477"], ["created_at", "2015-09-29 18:55:22.607451"], ["updated_at", "2015-09-29 18:55:22.607451"], ["activation_digest", "$2a$10$37lU0Tq0QoVemBrgIk75q./bvJlNo1bI/gSsDkyPAgesEQ0.bj85O"]]
+  [1m[36m (9.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-88@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Edwin Rau"], ["email", "example-88@fakeemail.com"], ["password_digest", "$2a$10$9k4PyeO2V.QadMFFliLftufcQJjHeWuaoNS/eNgBYiUqj/Otk73ym"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:22.753424"], ["created_at", "2015-09-29 18:55:22.824853"], ["updated_at", "2015-09-29 18:55:22.824853"], ["activation_digest", "$2a$10$ZQrOVOQuYIYoy.yrX0t8R.nqamAclAY30UURmvO.Elr4pB/PxymOq"]]
+  [1m[36m (7.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-89@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Dr. Dustin Hilll"], ["email", "example-89@fakeemail.com"], ["password_digest", "$2a$10$i3w5eRq7hWwmg11GeF5NneZEQphxXWyt43Mt1lKI/Bdn/4AASzCBO"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:22.973224"], ["created_at", "2015-09-29 18:55:23.042127"], ["updated_at", "2015-09-29 18:55:23.042127"], ["activation_digest", "$2a$10$qWrDHVhIcxOnouzdlv2VZ.3kK1l0e.QTifL7L3vSvR4QyWcO7RMt6"]]
+  [1m[36m (9.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-90@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Anahi Satterfield"], ["email", "example-90@fakeemail.com"], ["password_digest", "$2a$10$wdixVWGhQhvNG8J/KxT8/eA0r2tY60DtYubKOBuxNXoWB4G9f2pMa"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:23.190170"], ["created_at", "2015-09-29 18:55:23.259803"], ["updated_at", "2015-09-29 18:55:23.259803"], ["activation_digest", "$2a$10$FgzupZIGYNbvQdmNDgGuL.Y2U4jBcg4SzPyvLc8AFnQaG1PpIiUU."]]
+  [1m[36m (9.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-91@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Waldo Weber DDS"], ["email", "example-91@fakeemail.com"], ["password_digest", "$2a$10$cvKprrmOP.vPZuygewb8Se8gygRlTrd3VEoc4WySMW4CAcjovBnQC"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:23.409520"], ["created_at", "2015-09-29 18:55:23.480465"], ["updated_at", "2015-09-29 18:55:23.480465"], ["activation_digest", "$2a$10$IroJMy7fuZNpzX3g8IJUoOOWVnub0o4WznWU1nxg1mGcajr5Q0ZA2"]]
+  [1m[36m (9.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-92@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Dock Rodriguez"], ["email", "example-92@fakeemail.com"], ["password_digest", "$2a$10$mjsMUlsbC3.LXkuwyCd8lem7aGfp/0r3AiGneSC7zWluhW6A8Ng3i"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:23.625992"], ["created_at", "2015-09-29 18:55:23.693888"], ["updated_at", "2015-09-29 18:55:23.693888"], ["activation_digest", "$2a$10$AkNiZ9QzD.cMXeP7grkLsOPoCycAV2eisdop3DBQv4vlM44gitsly"]]
+  [1m[36m (9.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-93@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Dr. Terrell Bernhard"], ["email", "example-93@fakeemail.com"], ["password_digest", "$2a$10$yPmXbvZ9/1Si01GpPySxeONJ7foGs8tT1XEC0xXSlsT9lnXbo2S0."], ["activated", "t"], ["activated_at", "2015-09-29 18:55:23.838196"], ["created_at", "2015-09-29 18:55:23.908192"], ["updated_at", "2015-09-29 18:55:23.908192"], ["activation_digest", "$2a$10$iAMoGRe7QnonSNniG7gCxeAdZuUNRd7cJ8hJGPyG3Ziubm2uTimu6"]]
+  [1m[36m (9.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-94@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Doyle Prohaska"], ["email", "example-94@fakeemail.com"], ["password_digest", "$2a$10$GNcQbW.ip8F6d6mkndKPHuoAa1VH1mZHFOpPqWyM9QmcMW8TfzS9K"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:24.052601"], ["created_at", "2015-09-29 18:55:24.121578"], ["updated_at", "2015-09-29 18:55:24.121578"], ["activation_digest", "$2a$10$FSjWWjw1PSvlQGj0cPEn/.taqata3fnJKhpwxzKziceSkEEM.NKby"]]
+  [1m[36m (10.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-95@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Jennifer Glover"], ["email", "example-95@fakeemail.com"], ["password_digest", "$2a$10$vE3/J66r.zMe2sQovRFJlOmCKwUYfRmea/NOT9MwgnnH.TxHkfj0."], ["activated", "t"], ["activated_at", "2015-09-29 18:55:24.271632"], ["created_at", "2015-09-29 18:55:24.342761"], ["updated_at", "2015-09-29 18:55:24.342761"], ["activation_digest", "$2a$10$pxccCNCxFZ3HX1mG1jglcO7uG5d1thDjVJWL7SKQG9Q0zdZ3x3WEy"]]
+  [1m[36m (9.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-96@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Rashad Schoen"], ["email", "example-96@fakeemail.com"], ["password_digest", "$2a$10$yDKEVs28KDytnMshH93JqOmb2.xuXJ3XqMor0CJYb9tuxiuS.erNm"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:24.491861"], ["created_at", "2015-09-29 18:55:24.562175"], ["updated_at", "2015-09-29 18:55:24.562175"], ["activation_digest", "$2a$10$XcgjsrJRhwYsxnThwQKiV.YwPjVZLvpHXA/moYFM7xNau2WiXXQRC"]]
+  [1m[36m (9.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-97@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Mrs. Ariel Roob"], ["email", "example-97@fakeemail.com"], ["password_digest", "$2a$10$q7RhiL8qFMx5eHWhmvn1ZOWm6quUz3HwYQvfhI2wuWjxjBCzYV.Ri"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:24.707484"], ["created_at", "2015-09-29 18:55:24.776791"], ["updated_at", "2015-09-29 18:55:24.776791"], ["activation_digest", "$2a$10$5nmlkiInvYAZoGeCU29cLuT7nnTcZKA1m87QroNw4kYgtobS7Dem."]]
+  [1m[36m (8.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-98@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Madilyn Abshire Sr."], ["email", "example-98@fakeemail.com"], ["password_digest", "$2a$10$Gr5AvMXeofXcOxwelWr5k.Rf.YU3VHXx92PKgH5KxClzYg3xRIt8K"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:24.921792"], ["created_at", "2015-09-29 18:55:24.993065"], ["updated_at", "2015-09-29 18:55:24.993065"], ["activation_digest", "$2a$10$bNYsBVIGNVfNbHyNrANXauIQOJiXWUM56UEX.2JqeFygnwO.wsYGO"]]
+  [1m[36m (8.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('example-99@fakeemail.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Emory Armstrong"], ["email", "example-99@fakeemail.com"], ["password_digest", "$2a$10$u/DtKyUnS6XpU0jPxVBMZemj411l5DmVfeexInaaZ1XD.nK1WX8ha"], ["activated", "t"], ["activated_at", "2015-09-29 18:55:25.137236"], ["created_at", "2015-09-29 18:55:25.209374"], ["updated_at", "2015-09-29 18:55:25.209374"], ["activation_digest", "$2a$10$segob.WskHPgSDpj5MIaOelV9KV0.7FZo8D/rsp/82c8wv3F0nvpe"]]
+  [1m[36m (9.2ms)[0m  [1mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-29 18:57:09 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_iepart.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (5.7ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 345ms (Views: 332.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-29 18:57:10 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/login" for 173.64.67.222 at 2015-09-29 18:57:12 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (339.3ms)
+  Rendered layouts/_iepart.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 484ms (Views: 483.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/password_resets/new" for 173.64.67.222 at 2015-09-29 18:57:14 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#new as HTML
+  Rendered password_resets/new.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 130ms (Views: 129.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/password_resets" for 173.64.67.222 at 2015-09-29 18:57:17 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RGxAF8DsyCCeOSnCTAnsxQRzjH4yLn13fuNtHnlWwNSH3gWZsLlPPU63OzFQLquO+a3aDTQUgz5M1svR2XXqtA==", "password_reset"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "highflight109@msn.com"]]
+  Rendered password_resets/new.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 161ms (Views: 142.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/login" for 173.64.67.222 at 2015-09-29 18:57:20 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 120ms (Views: 119.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 173.64.67.222 at 2015-09-29 18:57:24 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (2.7ms)
+  Rendered users/new.html.erb within layouts/application (7.9ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 150ms (Views: 138.8ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users" for 173.64.67.222 at 2015-09-29 18:57:40 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"erGK8OedTWAFTJxLUsNDMIqCAXpwnbDFWjumTBZDuJu5A89+l8jKfdXCjrhO5AR7d1xXCXanToxoDgCDtmCS+w==", "user"=>{"name"=>"Azsro", "email"=>"highflight109@msn.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('highflight109@msn.com') LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Azsro"], ["email", "highflight109@msn.com"], ["password_digest", "$2a$10$Pb66gCte2EQ9GM6Q0foCjuQbmfL.35vhYECl61LuMRxp9jPk5uwna"], ["created_at", "2015-09-29 18:57:40.401157"], ["updated_at", "2015-09-29 18:57:40.401157"], ["activation_digest", "$2a$10$e7C.G19eiracO3wc6ekiA.D.n8owxYYaC2QQ4N1xLtlma1.WLS1R2"]]
+  [1m[35m (7.1ms)[0m  commit transaction
+  Rendered user_mailer/account_activation.html.erb within layouts/mailer (1.1ms)
+  Rendered user_mailer/account_activation.text.erb within layouts/mailer (0.5ms)
+
+UserMailer#account_activation: processed outbound mail in 274.8ms
+
+Sent mail to highflight109@msn.com (10.3ms)
+Date: Tue, 29 Sep 2015 18:57:40 +0000
+From: noreply@example.com
+To: highflight109@msn.com
+Message-ID: <560adf24d1e72_53b93fd4d102ac348152f@azsro-cizeup-1750014.mail>
+Subject: Account Activation
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_560adf24cf978_53b93fd4d102ac34814e2";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_560adf24cf978_53b93fd4d102ac34814e2
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hello Azsro,
+
+Welcome to Cizeup! Click on the link below to activate your account:
+
+http://cizeup-azsro.c9.io/account_activations/M4yoeK3eZzwvFfyAcC_D6w/edit?email=highflight109%40msn.com
+
+----==_mimepart_560adf24cf978_53b93fd4d102ac34814e2
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <h1>Cizeup</h1>
+
+<p>Hello Azsro,</p>
+
+<p>
+Welcome to Cizeup! Click on the link below to activate your account:
+</p>
+
+<a href="http://cizeup-azsro.c9.io/account_activations/M4yoeK3eZzwvFfyAcC_D6w/edit?email=highflight109%40msn.com">Activate</a>
+  </body>
+</html>
+
+----==_mimepart_560adf24cf978_53b93fd4d102ac34814e2--
+
+Redirected to https://cizeup-azsro.c9.io/
+Completed 302 Found in 555ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-29 18:57:41 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 137ms (Views: 135.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-29 18:57:41 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/account_activations/M4yoeK3eZzwvFfyAcC_D6w/edit?email=highflight109%40msn.com&" for 173.64.67.222 at 2015-09-29 18:58:00 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AccountActivationsController#edit as HTML
+  Parameters: {"email"=>"highflight109@msn.com", "id"=>"M4yoeK3eZzwvFfyAcC_D6w"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "highflight109@msn.com"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "activated" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["activated", "t"], ["updated_at", "2015-09-29 18:58:00.387689"], ["id", 101]]
+  [1m[35m (7.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "activated_at" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["activated_at", "2015-09-29 18:58:00.397936"], ["updated_at", "2015-09-29 18:58:00.398504"], ["id", 101]]
+  [1m[36m (7.4ms)[0m  [1mcommit transaction[0m
+Redirected to https://cizeup-azsro.c9.io/users/101
+Completed 302 Found in 100ms (ActiveRecord: 16.0ms)
+
+
+Started GET "/users/101" for 173.64.67.222 at 2015-09-29 18:58:00 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"101"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 101]]
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 101]]
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 105ms (Views: 102.3ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/logout" for 173.64.67.222 at 2015-09-29 18:58:04 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"sf6OV97ZgSOdiAc/jEYl4ezdD/OQSgD2cXVNUOiaG9tyTMvZrowGPk0GFcyQYWKqEQNZgJZw/r9DQOufSLkxuw=="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 101]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to https://cizeup-azsro.c9.io/
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-29 18:58:04 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 151ms (Views: 150.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-29 18:58:05 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/login" for 173.64.67.222 at 2015-09-29 18:58:05 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 119ms (Views: 118.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/password_resets/new" for 173.64.67.222 at 2015-09-29 18:58:07 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#new as HTML
+  Rendered password_resets/new.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 115ms (Views: 114.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/password_resets" for 173.64.67.222 at 2015-09-29 18:58:10 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yrEcxhzKU1K0rz8wOT9JHrATwEYKHB8/6tkTKP9x2HsJA1lIbJ/UT2QhLcMlGA5VTc2WNQwm4XbY7LXnX1LyGw==", "password_reset"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "highflight109@msn.com"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "reset_digest" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["reset_digest", "$2a$10$vTY1Ni/WjS/2fNxKFgMEPeTCtrJ0IijhOU1OYzR.ahLK89w6r.yL6"], ["updated_at", "2015-09-29 18:58:10.785771"], ["id", 101]]
+  [1m[35m (8.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "reset_sent_at" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["reset_sent_at", "2015-09-29 18:58:10.795865"], ["updated_at", "2015-09-29 18:58:10.796554"], ["id", 101]]
+  [1m[36m (5.4ms)[0m  [1mcommit transaction[0m
+  Rendered user_mailer/password_reset.html.erb within layouts/mailer (0.8ms)
+  Rendered user_mailer/password_reset.text.erb within layouts/mailer (0.4ms)
+
+UserMailer#password_reset: processed outbound mail in 12.6ms
+
+Sent mail to highflight109@msn.com (2.9ms)
+Date: Tue, 29 Sep 2015 18:58:10 +0000
+From: noreply@example.com
+To: highflight109@msn.com
+Message-ID: <560adf42c7aea_53b93fd4d0b01eb08179e@azsro-cizeup-1750014.mail>
+Subject: Password Reset
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_560adf42c6ab5_53b93fd4d0b01eb08166f";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_560adf42c6ab5_53b93fd4d0b01eb08166f
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+To reset your password click the link below:
+
+http://cizeup-azsro.c9.io/password_resets/hoqLvhE6EQZiFyLwyuxO2A/edit?email=highflight109%40msn.com
+
+This link will expire in two hours.
+
+If you did not request your password to be reset, please ignore this email and
+your password will stay as it is.
+
+----==_mimepart_560adf42c6ab5_53b93fd4d0b01eb08166f
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <h1>Password Reset</h1>
+
+<p>To reset your password click the link below:</p>
+
+<a href="http://cizeup-azsro.c9.io/password_resets/hoqLvhE6EQZiFyLwyuxO2A/edit?email=highflight109%40msn.com">Reset password</a>
+
+<p>This link will expire in two hours.</p>
+
+<p>
+If you did not request your password to be reset, please ignore this email and
+your password will stay as it is.
+</p>
+  </body>
+</html>
+
+----==_mimepart_560adf42c6ab5_53b93fd4d0b01eb08166f--
+
+Redirected to https://cizeup-azsro.c9.io/
+Completed 302 Found in 113ms (ActiveRecord: 14.3ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-29 18:58:10 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 108ms (Views: 107.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-29 18:58:11 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/password_resets/hoqLvhE6EQZiFyLwyuxO2A/edit?email=highflight109%40msn.com&" for 173.64.67.222 at 2015-09-29 18:59:05 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#edit as HTML
+  Parameters: {"email"=>"highflight109@msn.com", "id"=>"hoqLvhE6EQZiFyLwyuxO2A"}
+  Rendered password_resets/edit.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 107ms (Views: 106.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/password_resets/hoqLvhE6EQZiFyLwyuxO2A/edit?email=highflight109%40msn.com&" for 173.64.67.222 at 2015-09-29 19:00:33 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#edit as HTML
+  Parameters: {"email"=>"highflight109@msn.com", "id"=>"hoqLvhE6EQZiFyLwyuxO2A"}
+  Rendered password_resets/edit.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+     6: 
+     7: <div class="row">
+     8:   <div class="col-md-6 col-md-offset-3">
+     9:     <%= form_for(@user, url: password_reset_path(params[:id])) do |f| %>
+    10:       <%= render 'shared/error_messages' %>
+    11: 
+    12:       <%= hidden_field_tag :email, @user.email %>
+  app/views/password_resets/edit.html.erb:9:in `_app_views_password_resets_edit_html_erb___4293023559125326338_70183281619440'
+
+
+
+
+Started GET "/password_resets/hoqLvhE6EQZiFyLwyuxO2A/edit?email=highflight109%40msn.com&" for 173.64.67.222 at 2015-09-29 19:00:56 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PasswordResetsController#edit as HTML
+  Parameters: {"email"=>"highflight109@msn.com", "id"=>"hoqLvhE6EQZiFyLwyuxO2A"}
+  Rendered password_resets/edit.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+     6: 
+     7: <div class="row">
+     8:   <div class="col-md-6 col-md-offset-3">
+     9:     <%= form_for(@user, url: password_reset_path(params[:id])) do |f| %>
+    10:       <%= render 'shared/error_messages' %>
+    11: 
+    12:       <%= hidden_field_tag :email, @user.email %>
+  app/views/password_resets/edit.html.erb:9:in `_app_views_password_resets_edit_html_erb__3535608846827169616_35907860'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.1ms)
+
+
+Started GET "/password_resets/hoqLvhE6EQZiFyLwyuxO2A/edit?email=highflight109%40msn.com&" for 173.64.67.222 at 2015-09-29 19:02:48 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#edit as HTML
+  Parameters: {"email"=>"highflight109@msn.com", "id"=>"hoqLvhE6EQZiFyLwyuxO2A"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "highflight109@msn.com"]]
+  Rendered shared/_error_messages.html.erb (2.5ms)
+  Rendered password_resets/edit.html.erb within layouts/application (254.5ms)
+  Rendered layouts/_iepart.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (5.6ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 691ms (Views: 589.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/password_resets/hoqLvhE6EQZiFyLwyuxO2A/edit?email=highflight109%40msn.com&" for 173.64.67.222 at 2015-09-29 19:05:36 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#edit as HTML
+  Parameters: {"email"=>"highflight109@msn.com", "id"=>"hoqLvhE6EQZiFyLwyuxO2A"}
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "highflight109@msn.com"]]
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered password_resets/edit.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 232ms (Views: 131.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/login" for 173.64.67.222 at 2015-09-29 19:05:38 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (14.5ms)
+  Rendered layouts/_iepart.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 169ms (Views: 167.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/password_resets/new" for 173.64.67.222 at 2015-09-29 19:05:39 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#new as HTML
+  Rendered password_resets/new.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 133ms (Views: 131.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/password_resets" for 173.64.67.222 at 2015-09-29 19:05:42 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NkRDu3zu9p7nT8uMbfNuCu4QKwsZMPrIM7cf8n8VaM719gY1DLtxgzfB2X9x1ClBE859eB8KBIEBgrk93zZCrg==", "password_reset"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "highflight109@msn.com"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "users" SET "reset_digest" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["reset_digest", "$2a$10$QsxOxLt5DSmx62VTcAwuReVf1GNkxTzAdFswxs.qKGYoM2FJd0xpG"], ["updated_at", "2015-09-29 19:05:42.781901"], ["id", 101]]
+  [1m[36m (8.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "reset_sent_at" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["reset_sent_at", "2015-09-29 19:05:42.793093"], ["updated_at", "2015-09-29 19:05:42.793748"], ["id", 101]]
+  [1m[35m (6.3ms)[0m  commit transaction
+  Rendered user_mailer/password_reset.html.erb within layouts/mailer (0.7ms)
+  Rendered user_mailer/password_reset.text.erb within layouts/mailer (0.5ms)
+
+UserMailer#password_reset: processed outbound mail in 151.4ms
+
+Sent mail to highflight109@msn.com (9.1ms)
+Date: Tue, 29 Sep 2015 19:05:42 +0000
+From: noreply@example.com
+To: highflight109@msn.com
+Message-ID: <560ae106ede3b_568e3f8696cf7608348c2@azsro-cizeup-1750014.mail>
+Subject: Password Reset
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_560ae106ebb5b_568e3f8696cf7608347b2";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_560ae106ebb5b_568e3f8696cf7608347b2
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+To reset your password click the link below:
+
+http://cizeup-azsro.c9.io/password_resets/v0CDmEz7Z3a5iIoeHyFC7w/edit?email=highflight109%40msn.com
+
+This link will expire in two hours.
+
+If you did not request your password to be reset, please ignore this email and
+your password will stay as it is.
+
+----==_mimepart_560ae106ebb5b_568e3f8696cf7608347b2
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <h1>Password Reset</h1>
+
+<p>To reset your password click the link below:</p>
+
+<a href="http://cizeup-azsro.c9.io/password_resets/v0CDmEz7Z3a5iIoeHyFC7w/edit?email=highflight109%40msn.com">Reset password</a>
+
+<p>This link will expire in two hours.</p>
+
+<p>
+If you did not request your password to be reset, please ignore this email and
+your password will stay as it is.
+</p>
+  </body>
+</html>
+
+----==_mimepart_560ae106ebb5b_568e3f8696cf7608347b2--
+
+Redirected to https://cizeup-azsro.c9.io/
+Completed 302 Found in 268ms (ActiveRecord: 15.6ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-29 19:05:43 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 92ms (Views: 91.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-29 19:05:43 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-29 19:06:57 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_iepart.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (4.1ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 302ms (Views: 289.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-29 19:06:58 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/login" for 173.64.67.222 at 2015-09-29 19:07:06 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (333.6ms)
+  Rendered layouts/_iepart.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 475ms (Views: 473.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/password_resets/new" for 173.64.67.222 at 2015-09-29 19:07:08 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#new as HTML
+  Rendered password_resets/new.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 161ms (Views: 159.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/password_resets" for 173.64.67.222 at 2015-09-29 19:07:12 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FFRuEqzS8Qg9RUFEd+PydBLWa4u+bg5mB3aq/KxQBGrX5iuc3Id2Fe3LU7drxLU/7wg9+LhU8C81QwwzDHMuCg==", "password_reset"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "highflight109@msn.com"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "users" SET "reset_digest" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["reset_digest", "$2a$10$9QJFncF7MSNzdpKyZ/.zR.XUR5vAKL/y7kWjNdr6618cCxkIsvS5C"], ["updated_at", "2015-09-29 19:07:12.387274"], ["id", 101]]
+  [1m[36m (7.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "reset_sent_at" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["reset_sent_at", "2015-09-29 19:07:12.397475"], ["updated_at", "2015-09-29 19:07:12.398071"], ["id", 101]]
+  [1m[35m (8.2ms)[0m  commit transaction
+  Rendered user_mailer/password_reset.html.erb within layouts/mailer (0.8ms)
+  Rendered user_mailer/password_reset.text.erb within layouts/mailer (0.5ms)
+
+UserMailer#password_reset: processed outbound mail in 168.7ms
+
+Sent mail to highflight109@msn.com (9.9ms)
+Date: Tue, 29 Sep 2015 19:07:12 +0000
+From: noreply@example.com
+To: highflight109@msn.com
+Message-ID: <560ae1609180b_59883fe6410ff4bc9054@azsro-cizeup-1750014.mail>
+Subject: Password Reset
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_560ae1608f694_59883fe6410ff4bc89bc";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_560ae1608f694_59883fe6410ff4bc89bc
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+To reset your password click the link below:
+
+http://cizeup-azsro.c9.io/password_resets/C4lp8uJMGEujYkquo72fqw/edit?email=highflight109%40msn.com
+
+This link will expire in two hours.
+
+If you did not request your password to be reset, please ignore this email and
+your password will stay as it is.
+
+----==_mimepart_560ae1608f694_59883fe6410ff4bc89bc
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <h1>Password Reset</h1>
+
+<p>To reset your password click the link below:</p>
+
+<a href="http://cizeup-azsro.c9.io/password_resets/C4lp8uJMGEujYkquo72fqw/edit?email=highflight109%40msn.com">Reset password</a>
+
+<p>This link will expire in two hours.</p>
+
+<p>
+If you did not request your password to be reset, please ignore this email and
+your password will stay as it is.
+</p>
+  </body>
+</html>
+
+----==_mimepart_560ae1608f694_59883fe6410ff4bc89bc--
+
+Redirected to https://cizeup-azsro.c9.io/
+Completed 302 Found in 316ms (ActiveRecord: 17.2ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-29 19:07:12 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 120ms (Views: 118.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-29 19:07:12 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/password_resets/C4lp8uJMGEujYkquo72fqw/edit?email=highflight109%40msn.com&" for 173.64.67.222 at 2015-09-29 19:07:49 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#edit as HTML
+  Parameters: {"email"=>"highflight109@msn.com", "id"=>"C4lp8uJMGEujYkquo72fqw"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "highflight109@msn.com"]]
+  Rendered shared/_error_messages.html.erb (2.8ms)
+  Rendered password_resets/edit.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 184ms (Views: 110.9ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/password_resets/C4lp8uJMGEujYkquo72fqw" for 173.64.67.222 at 2015-09-29 19:08:06 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U3CZ3MK3tytKznNYeNXQ9k48Jk7wDUYTNy5jsh44DDKQwtxSsuIwNppAYatk8pe9s+JwPfY3uFoFG8V9vhsmUg==", "email"=>"highflight109@msn.com", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update password", "id"=>"C4lp8uJMGEujYkquo72fqw"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "highflight109@msn.com"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE (LOWER("users"."email") = LOWER('highflight109@msn.com') AND "users"."id" != 101) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "password_digest" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["password_digest", "$2a$10$V4itFawMB/eXaodZ2Ne.x.8p2kgjEcg7z4UTbJnAWiY/ahsWZl7lW"], ["updated_at", "2015-09-29 19:08:06.400908"], ["id", 101]]
+  [1m[35m (6.9ms)[0m  commit transaction
+Redirected to https://cizeup-azsro.c9.io/users/101
+Completed 302 Found in 165ms (ActiveRecord: 7.6ms)
+
+
+Started GET "/users/101" for 173.64.67.222 at 2015-09-29 19:08:06 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"101"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 101]]
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 101]]
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 134ms (Views: 131.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users" for 173.64.67.222 at 2015-09-29 19:08:11 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 101]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" LIMIT 30 OFFSET 0[0m
+  Rendered users/_user.html.erb (6.2ms)
+  Rendered users/index.html.erb within layouts/application (15.0ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 145ms (Views: 142.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/101" for 173.64.67.222 at 2015-09-29 19:08:16 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"101"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 101]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 101]]
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 151ms (Views: 144.8ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/logout" for 173.64.67.222 at 2015-09-29 19:08:18 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dwamwlQX18JZUXNScT8+geLXCalIvOZIp7UFF6Koe8G0tONMJEJQ34nfYaFtGHnKHwlf2k6GGAGVgKPYAotRoQ=="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 101]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to https://cizeup-azsro.c9.io/
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-29 19:08:18 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 122ms (Views: 121.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-29 19:08:18 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/login" for 173.64.67.222 at 2015-09-29 19:08:25 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 103ms (Views: 102.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/password_resets/new" for 173.64.67.222 at 2015-09-29 19:08:26 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#new as HTML
+  Rendered password_resets/new.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 119ms (Views: 117.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/password_resets" for 173.64.67.222 at 2015-09-29 19:08:35 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LRTQvX+cFMVywtMRKuwX5CuoCGThbXNkXMl/dVS+RMDuppUzD8mT2KJMweI2y1Cv1nZeF+dXjS1u/Nm69J1uoA==", "password_reset"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "highflight109@msn.com"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "reset_digest" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["reset_digest", "$2a$10$Hd2rUA9W/xwypgzccaXgy.CXTJhH0D9lJlIjsE5tgLvMqlhEwQnbG"], ["updated_at", "2015-09-29 19:08:35.586213"], ["id", 101]]
+  [1m[35m (10.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "reset_sent_at" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["reset_sent_at", "2015-09-29 19:08:35.599307"], ["updated_at", "2015-09-29 19:08:35.600131"], ["id", 101]]
+  [1m[36m (6.2ms)[0m  [1mcommit transaction[0m
+  Rendered user_mailer/password_reset.html.erb within layouts/mailer (0.4ms)
+  Rendered user_mailer/password_reset.text.erb within layouts/mailer (0.2ms)
+
+
+Started GET "/password_resets/C4lp8uJMGEujYkquo72fqw/edit?email=highflight109%40msn.com&" for 173.64.67.222 at 2015-09-29 19:09:07 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PasswordResetsController#edit as HTML
+  Parameters: {"email"=>"highflight109@msn.com", "id"=>"C4lp8uJMGEujYkquo72fqw"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "highflight109@msn.com"]]
+Redirected to https://cizeup-azsro.c9.io/
+Filter chain halted as :valid_user rendered or redirected
+Completed 302 Found in 123ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-29 19:09:07 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_iepart.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (5.9ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 367ms (Views: 365.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-29 19:09:08 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/login" for 173.64.67.222 at 2015-09-29 19:09:14 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Login as HTML
+  Rendered pages/Login.html.erb within layouts/application (297.2ms)
+  Rendered layouts/_iepart.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 430ms (Views: 428.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/password_resets/new" for 173.64.67.222 at 2015-09-29 19:09:16 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#new as HTML
+  Rendered password_resets/new.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 130ms (Views: 129.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/password_resets" for 173.64.67.222 at 2015-09-29 19:09:19 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JurwK2rUC4r3yUnfayv8kdS7ORQbxc3Hryk04Y+qTBjlWLWlGoGMlydHWyx3DLvaKWVvZx3/M46dHJIuL4lmeA==", "password_reset"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", ""]]
+  Rendered password_resets/new.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 156ms (Views: 154.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/password_resets" for 173.64.67.222 at 2015-09-29 19:09:22 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iUn/V4Y9M2EoGlo0pM45xo/NpZbXVFDd3z8RSvURG+BK+7rZ9mi0fPiUSMe46X6NchPz5dFurpTtCreFVTIxgA==", "password_reset"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "highflight109@msn.com"]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "users" SET "reset_digest" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["reset_digest", "$2a$10$5six71vHieTfrCuQjSGpsOSFVehulkngKIkr027ZuFi4SnbsvQXwO"], ["updated_at", "2015-09-29 19:09:22.594135"], ["id", 101]]
+  [1m[36m (10.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "users" SET "reset_sent_at" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["reset_sent_at", "2015-09-29 19:09:22.607458"], ["updated_at", "2015-09-29 19:09:22.607986"], ["id", 101]]
+  [1m[35m (6.3ms)[0m  commit transaction
+  Rendered user_mailer/password_reset.html.erb within layouts/mailer (0.7ms)
+  Rendered user_mailer/password_reset.text.erb within layouts/mailer (0.4ms)
+
+UserMailer#password_reset: processed outbound mail in 139.0ms
+
+Sent mail to highflight109@msn.com (9.1ms)
+Date: Tue, 29 Sep 2015 19:09:22 +0000
+From: noreply@example.com
+To: highflight109@msn.com
+Message-ID: <560ae1e2bd449_5c4e3fde5544a66068957@azsro-cizeup-1750014.mail>
+Subject: Password Reset
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_560ae1e2bb1de_5c4e3fde5544a660688ec";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_560ae1e2bb1de_5c4e3fde5544a660688ec
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+To reset your password click the link below:
+
+http://cizeup-azsro.c9.io/password_resets/jjledxxH9aVsHdUyype4RA/edit?email=highflight109%40msn.com
+
+This link will expire in two hours.
+
+If you did not request your password to be reset, please ignore this email and
+your password will stay as it is.
+
+----==_mimepart_560ae1e2bb1de_5c4e3fde5544a660688ec
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <h1>Password Reset</h1>
+
+<p>To reset your password click the link below:</p>
+
+<a href="http://cizeup-azsro.c9.io/password_resets/jjledxxH9aVsHdUyype4RA/edit?email=highflight109%40msn.com">Reset password</a>
+
+<p>This link will expire in two hours.</p>
+
+<p>
+If you did not request your password to be reset, please ignore this email and
+your password will stay as it is.
+</p>
+  </body>
+</html>
+
+----==_mimepart_560ae1e2bb1de_5c4e3fde5544a660688ec--
+
+Redirected to https://cizeup-azsro.c9.io/
+Completed 302 Found in 256ms (ActiveRecord: 18.1ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-29 19:09:22 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 92ms (Views: 90.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-29 19:09:23 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/password_resets/jjledxxH9aVsHdUyype4RA/edit?email=highflight109%40msn.com&" for 173.64.67.222 at 2015-09-29 19:09:54 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#edit as HTML
+  Parameters: {"email"=>"highflight109@msn.com", "id"=>"jjledxxH9aVsHdUyype4RA"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "highflight109@msn.com"]]
+  Rendered shared/_error_messages.html.erb (3.1ms)
+  Rendered password_resets/edit.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 195ms (Views: 121.6ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/password_resets/jjledxxH9aVsHdUyype4RA" for 173.64.67.222 at 2015-09-29 19:09:57 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hUQh5MT0uSDgoBtBhqm9tsqr4DfJ7PdAIHFgCGBq6dRG9mRqtKE+PTAuCbKajvr9N3W2RM/WCQkSRMbHwEnDtA==", "email"=>"highflight109@msn.com", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update password", "id"=>"jjledxxH9aVsHdUyype4RA"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "highflight109@msn.com"]]
+  Rendered shared/_error_messages.html.erb (0.7ms)
+  Rendered password_resets/edit.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 229ms (Views: 151.3ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/password_resets/jjledxxH9aVsHdUyype4RA" for 173.64.67.222 at 2015-09-29 19:10:04 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ygeE0gBr2kZv5sFstY/3K35HXUCBDRPYxIimXxzRGZMJtcFccD5dW79o05+pqLBgg5kLM4c37ZH2vQCQvPIz8w==", "email"=>"highflight109@msn.com", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update password", "id"=>"jjledxxH9aVsHdUyype4RA"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "highflight109@msn.com"]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE (LOWER("users"."email") = LOWER('highflight109@msn.com') AND "users"."id" != 101) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered shared/_error_messages.html.erb (0.9ms)
+  Rendered password_resets/edit.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 316ms (Views: 149.3ms | ActiveRecord: 0.7ms)
+
+
+Started PATCH "/password_resets/jjledxxH9aVsHdUyype4RA" for 173.64.67.222 at 2015-09-29 19:10:15 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PasswordResetsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"orAbXeWipHYQYE/e2ofhN7vLzzwwt+4wG39XbWZ2TadhAl7Tlfcja8DuXS3GoKZ8RhWZTzaNEHkpSvGixlVnxw==", "email"=>"highflight109@msn.com", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update password", "id"=>"jjledxxH9aVsHdUyype4RA"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "highflight109@msn.com"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE (LOWER("users"."email") = LOWER('highflight109@msn.com') AND "users"."id" != 101) LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "password_digest" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["password_digest", "$2a$10$RwUhIlmX4DEpu7MD3V6HrOD3QCfc/E6q0fRiUwL/TAqsncNYhxHhC"], ["updated_at", "2015-09-29 19:10:15.784282"], ["id", 101]]
+  [1m[36m (6.6ms)[0m  [1mcommit transaction[0m
+Redirected to https://cizeup-azsro.c9.io/users/101
+Completed 302 Found in 153ms (ActiveRecord: 7.4ms)
+
+
+Started GET "/users/101" for 173.64.67.222 at 2015-09-29 19:10:16 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"101"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 101]]
+  Rendered users/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 101]]
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 131ms (Views: 127.8ms | ActiveRecord: 0.6ms)
+
+
+Started DELETE "/logout" for 173.64.67.222 at 2015-09-29 19:10:19 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"xLN81Q56uZQGcc8B6SpzpeWswq30+SPv4iO8dHLddw0HATlbfi8+idb/3fL1DTTuGHKU3vLD3abQFhq70v5dbQ=="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 101]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to https://cizeup-azsro.c9.io/
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 173.64.67.222 at 2015-09-29 19:10:19 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_iepart.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 107ms (Views: 105.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Homepage.gif" for 173.64.67.222 at 2015-09-29 19:10:19 +0000
+Cannot render console from 173.64.67.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
