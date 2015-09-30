@@ -11,7 +11,7 @@ class MicropostsController < ApplicationController
       flash[:success] = "Post created!"
       redirect_to current_user
     else
-      flash[:warning] = "An error occured."
+      flash[:warning] = "An error occured. Post cannot be blank or longer than 200 characters"
       redirect_to(:back)
     end
   end
