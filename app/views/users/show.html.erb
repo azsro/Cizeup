@@ -1,11 +1,24 @@
 <% provide(:title, @user.name) %>
+<div class="center jumbotron">
+    <body style="background-color:lightblue">
+      
 <div class="row">
   <aside class="col-md-4">
-    <section class="user_info">
       <h1>
-        <%= gravatar_for @user %>
-        <%= @user.name %>
+        <section class="user_info">
+        <%= render 'shared/user_info' %>
+        </section>
+        <%= link_to "Create", create_path, class: "btn btn-lg btn-primary" %>
       </h1>
     </section>
   </aside>
+    <div class="col-md-8">
+    <% if @user.microposts.any? %>
+      <h3>Writings (<%= @user.microposts.count %>)</h3>
+      <ol class="microposts">
+        <%= render @microposts %>
+      </ol>
+      <%= will_paginate @microposts %>
+    <% end %>
+  </div>
 </div>
