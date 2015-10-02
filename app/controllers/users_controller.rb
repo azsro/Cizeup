@@ -15,6 +15,7 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
     @microposts = @user.microposts.paginate(page: params[:page])
     @micropost = current_user.microposts.build if logged_in?
+    @feed_items = current_user.feed.paginate(page: params[:page])
   end
   
   def create
