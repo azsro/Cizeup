@@ -8,10 +8,14 @@
         <section class="user_info">
         <%= render 'shared/user_info' %>
         </section>
+      <section class="followstats">
+        <%= render 'shared/followstats' %>
+      </section>
         <%= link_to "Create", create_path, class: "btn btn-lg btn-primary" %>
       </h1>
   </aside>
     <div class="col-md-8">
+      <%= render 'followform' if logged_in? %>
       <h3>Writings (<%= @user.microposts.count %>)</h3>
       <%= render 'shared/feed' %>
   </div>
